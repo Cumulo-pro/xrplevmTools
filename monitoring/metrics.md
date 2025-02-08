@@ -17,7 +17,7 @@ For ease of navigation, please refer to the **Table of Contents** below.
 - [BLOCK SIZE](#block-size)
 - [BYZANTINE VALIDATORS](#byzantine-validators)
 - [MISSING VALIDATORS](#missing-validators)
-- [CHAIN METRICS](#chain-metrics)
+- [CHAIN SIZE](#chain-size)
 - [TRANSACTIONS](#transactions)
 - [DUPLICATE EVENTS](#duplicate-events)
 - [LATE VOTES](#late-votes)
