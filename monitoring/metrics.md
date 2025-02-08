@@ -352,6 +352,35 @@ Represents the time spent processing `FinalizeBlock`. This metric is recorded as
 
 ---
 
+## AVERAGE BLOCK PROCESSING TIME
+### Metric: `cometbft_state_block_processing_time`
+
+**Description:**  
+This metric provides the **average time** it takes for the node to process a block. It is calculated by dividing the **total block processing time** (`cometbft_state_block_processing_time_sum`) by the **total number of blocks processed** (`cometbft_state_block_processing_time_count`).
+
+Monitoring the **average block processing time** is crucial for evaluating the efficiency of block finalization. If the average time increases, it may indicate **performance bottlenecks** or issues with the node's processing power. Keeping this metric within an optimal range helps ensure the **smooth functioning of the network** and avoids delays in transaction finalization.
+
+**Calculation:**  
+\[
+\text{Average Block Processing Time} = \frac{\text{cometbft_state_block_processing_time_sum}}{\text{cometbft_state_block_processing_time_count}}
+\]
+
+**Example Values:**  
+
+| Metric | Value |
+|----------------------|--------------|
+| `cometbft_state_block_processing_time_sum` | `391.85` seconds |
+| `cometbft_state_block_processing_time_count` | `19` blocks |
+| **Average Block Processing Time** | `20.62` seconds per block |
+
+**Interpretation:**  
+- **Lower values** indicate efficient block processing.
+- **Higher values** suggest performance issues or network congestion.
+- **Sudden spikes** may require investigation into node performance and resource allocation.
+
+
+---
+
 ## CONSENSUS PARAMETER UPDATES
 ### Metric: `cometbft_state_consensus_param_updates`
 
