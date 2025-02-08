@@ -1,10 +1,50 @@
-# Fuel Consensus System Metrics Documentation
+# XRPL EVM Consensus System Metrics Documentation
+
+## Introduction
+
+This document provides a comprehensive reference for the consensus metrics used in the **XRPL EVM** project, which integrates the Ethereum Virtual Machine (EVM) with the XRP Ledger (XRPL). These metrics, collected from the **CometBFT** consensus engine, are crucial for monitoring the performance, security, and health of validator nodes within the network.
+
+The document is structured into different metric categories, including block synchronization, validator activity, transaction processing, memory and CPU usage, network performance, and mempool statistics. Each metric is explained with its description, value interpretation, and example values.
+
+By leveraging these metrics, network operators and developers can ensure optimal performance, detect potential issues, and maintain a secure and efficient blockchain environment.
+
+For ease of navigation, please refer to the **Table of Contents** below.
+
+## Table of Contents
+
+- [SYNC STATUS](#sync-status)
+- [BLOCK GOSSIP STATUS](#block-gossip-status)
+- [BLOCK SIZE](#block-size)
+- [BYZANTINE VALIDATORS](#byzantine-validators)
+- [MISSING VALIDATORS](#missing-validators)
+- [CHAIN METRICS](#chain-metrics)
+- [TRANSACTIONS](#transactions)
+- [DUPLICATE EVENTS](#duplicate-events)
+- [LATE VOTES](#late-votes)
+- [PROPOSALS](#proposals)
+- [ROUND VOTING POWER PERCENT](#round-voting-power-percent)
+- [NUMBER OF ROUNDS](#number-of-rounds)
+- [TOTAL TRANSACTIONS](#total-transactions)
+- [VALIDATORS](#validators)
+- [MEMPOOL METRICS](#mempool-metrics)
+- [NETWORK PEERS](#network-peers)
+- [BLOCK PROCESSING TIME](#block-processing-time)
+- [CONSENSUS PARAMETER UPDATES](#consensus-parameter-updates)
+- [CPU USAGE](#cpu-usage)
+- [FILE DESCRIPTORS](#file-descriptors)
+- [NETWORK USAGE](#network-usage)
+- [MEMORY USAGE](#memory-usage)
+- [PROCESS START TIME](#process-start-time)
+- [HOW TO USE THESE METRICS](#how-to-use-these-metrics)
+- [EXAMPLE PROMETHEUS OUTPUT](#example-prometheus-output)
+
+_______________________________________
 
 ## SYNC STATUS
 ### Metric: `cometbft_blocksync_syncing`
 
 **Description:**  
-A metric that indicates whether a node in the Fuel consensus system is syncing blocks. When this metric has a value of **1**, it means that the node is actively syncing blocks. Conversely, a value of **0** indicates that the node is not currently syncing blocks.
+A metric that indicates whether a node in the XPRL EVM consensus system is syncing blocks. When this metric has a value of **1**, it means that the node is actively syncing blocks. Conversely, a value of **0** indicates that the node is not currently syncing blocks.
 
 **Value Interpretation:**
 
