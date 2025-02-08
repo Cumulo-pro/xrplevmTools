@@ -119,7 +119,7 @@ Indicates the total power of the validators who missed signing.
 
 ---
 
-## CHAIN METRICS
+## CHAIN SIZE
 ### Metric: `cometbft_consensus_chain_size_bytes`
 
 **Description:**  
@@ -128,6 +128,8 @@ Represents the total size of the blockchain in bytes.
 **Example Value:**  
 - `77858` bytes (for `chain_id="exrp_1440002-1"`)
 
+
+## LATEST BLOCK HEIGHT
 ### Metric: `cometbft_consensus_latest_block_height`
 
 **Description:**  
