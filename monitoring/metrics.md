@@ -346,6 +346,7 @@ Represents the total size of the mempool in bytes. This metric gives an estimate
 **Example Value:**  
 - `0` bytes in mempool.
 
+---
 
 ## NETWORK PEERS
 ### Metric: `cometbft_p2p_peers`
@@ -355,6 +356,37 @@ Indicates the number of peers currently connected to the node.
 
 **Example Value:**  
 - `7` peers connected.
+
+---
+
+## P2P MESSAGE RECEIVED BYTES
+### Metric: `cometbft_p2p_message_receive_bytes_total`
+
+**Description:**  
+Represents the **total number of bytes received** for each message type over the peer-to-peer (P2P) network. This metric helps monitor network activity, assess bandwidth usage, and detect anomalies in message propagation.
+
+**Example Values:**  
+
+| `chain_id="exrp_1440002-1"` | Message Type | Bytes Received |
+|----------------------|------------------------------|---------------|
+| exrp_1440002-1 | `blocksync_StatusResponse` | `72` |
+| exrp_1440002-1 | `consensus_BlockPart` | `223082` |
+| exrp_1440002-1 | `consensus_HasVote` | `41120` |
+| exrp_1440002-1 | `consensus_NewRoundStep` | `3723` |
+| exrp_1440002-1 | `consensus_NewValidBlock` | `2716` |
+| exrp_1440002-1 | `consensus_Proposal` | `8900` |
+| exrp_1440002-1 | `consensus_Vote` | `692075` |
+| exrp_1440002-1 | `consensus_VoteSetBits` | `332` |
+| exrp_1440002-1 | `consensus_VoteSetMaj23` | `742` |
+| exrp_1440002-1 | `mempool_Txs` | `8286` |
+| exrp_1440002-1 | `p2p_PexAddrs` | `14157` |
+
+**Interpretation:**  
+- **High values in `consensus_BlockPart`** indicate significant data transfer during block propagation.
+- **A large number of `consensus_Vote` messages** suggests heavy consensus participation.
+- **`mempool_Txs` traffic** helps track transaction gossiping across nodes.
+- **Unusually high values in any category** may indicate inefficient message handling or potential DDoS attempts.
+
 
 ---
 
