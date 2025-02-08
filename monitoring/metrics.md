@@ -486,22 +486,35 @@ Represents the number of file descriptors currently open by the process.
 
 ---
 
-## NETWORK USAGE
+## NETWORK BYTES RECEIVED
 ### Metric: `process_network_receive_bytes_total`
 
 **Description:**  
-Indicates the total number of bytes received by the process over the network.
+Indicates the **total number of bytes received** by the process over the network. This metric helps track inbound network traffic and assess data consumption.
 
 **Example Value:**  
 - `8.88 TB` (`8.888071873671e+12` bytes).
 
+**Interpretation:**  
+- **Higher values** indicate significant inbound data transfer.
+- **Sudden spikes** may suggest increased network activity or potential traffic surges.
+- **Consistently low values** could indicate connectivity issues or underutilization of the node.
+
+---
+
+## NETWORK BYTES TRANSMITTED
 ### Metric: `process_network_transmit_bytes_total`
 
 **Description:**  
-Indicates the total number of bytes sent by the process over the network.
+Indicates the **total number of bytes sent** by the process over the network. This metric helps monitor outbound traffic and detect anomalies in data transmission.
 
 **Example Value:**  
 - `2.83 TB` (`2.83214477635e+12` bytes).
+
+**Interpretation:**  
+- **High values** suggest substantial outbound communication, which may be normal for validators or full nodes.
+- **Sudden increases** may indicate excessive message broadcasting or potential DDoS activity.
+- **Very low values** might point to inefficient node participation in the network.
 
 ---
 
