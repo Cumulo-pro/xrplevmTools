@@ -191,22 +191,35 @@ Indicates the number of transactions included in the latest block.
 
 ---
 
-## DUPLICATE EVENTS
+## DUPLICATE BLOCK PARTS
 ### Metric: `cometbft_consensus_duplicate_block_part`
 
 **Description:**  
-Indicates the number of times the node received a duplicate block part.
+Indicates the number of times the node has received a **duplicate block part**. This metric helps identify inefficiencies in block propagation and potential redundancy in network communication.
 
 **Example Value:**  
 - `34` duplicate block parts detected.
 
+**Interpretation:**  
+- **A low value** suggests efficient block propagation.
+- **A high value** may indicate network congestion, improper peer behavior, or redundant data transmission.
+- **Persistent high values** may require network optimization.
+
+---
+
+## DUPLICATE VOTES
 ### Metric: `cometbft_consensus_duplicate_vote`
 
 **Description:**  
-Represents the number of times a duplicate vote was received.
+Represents the number of times the node has received a **duplicate vote**. This can occur due to network issues, validator misconfigurations, or attempts at Byzantine behavior.
 
 **Example Value:**  
 - `3022` duplicate votes received.
+
+**Interpretation:**  
+- **A few duplicate votes** may be normal due to natural network conditions.
+- **A high number of duplicate votes** might indicate poor validator communication or network instability.
+- **Persistent high values** could suggest a need for validator synchronization improvements.
 
 ---
 
