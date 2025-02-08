@@ -130,6 +130,27 @@ Indicates the total power of the validators who missed signing.
 
 ---
 
+## MISSING VALIDATORS POWER
+### Metric: `cometbft_consensus_missing_validators_power`
+
+**Description:**  
+Indicates the **total voting power** of the validators who failed to sign a block. This metric is crucial for identifying potential issues with validator participation and network security.
+
+A nonzero value suggests that some validators did not sign a block, which may indicate:
+- **Temporary network issues** affecting validator connectivity.
+- **Validator downtime** due to maintenance or failures.
+- **Potential malicious behavior**, if a validator is intentionally avoiding signing.
+
+**Example Value:**  
+- `1` total voting power of missing validators.
+
+**Interpretation:**  
+- **A value of `0`** means all validators signed as expected.
+- **A nonzero value** indicates missing validator signatures, which may impact consensus security.
+- **Persistent high values** may require investigation into validator performance and network conditions.
+
+---
+
 ## CHAIN SIZE
 ### Metric: `cometbft_consensus_chain_size_bytes`
 
