@@ -167,6 +167,232 @@ Represents the total number of proposals received by this node since process sta
 **Example Value:**  
 - `18` proposals accepted.
 
+## ROUND VOTING POWER PERCENT
+### Metric: `cometbft_consensus_round_voting_power_percent`
+
+**Description:**  
+Represents the percentage of the total voting power received in a round. The value starts at `0` for each round and increases towards `1.0` as additional voting power is observed.  
+
+**Value Interpretation:**  
+
+| Vote Type | Description |
+|-----------------|-------------------------------------------|
+| `precommit` | Percentage of voting power received in precommit phase. |
+| `prevote`   | Percentage of voting power received in prevote phase. |
+
+**Example Values:**  
+
+| `chain_id="exrp_1440002-1"` | `vote_type` | Value |
+|----------------------|-------------|--------|
+| exrp_1440002-1 | `precommit` | `2.03%` |
+| exrp_1440002-1 | `prevote` | `2.79%` |
+
+---
+
+## NUMBER OF ROUNDS
+### Metric: `cometbft_consensus_rounds`
+
+**Description:**  
+Indicates the number of rounds the consensus process has gone through.
+
+**Example Value:**  
+- `1` round completed.
+
+## TOTAL TRANSACTIONS
+### Metric: `cometbft_consensus_total_txs`
+
+**Description:**  
+Indicates the total number of transactions processed in the blockchain.
+
+**Example Value:**  
+- `2` total transactions recorded.
+
+---
+
+## VALIDATORS
+### Metric: `cometbft_consensus_validators`
+
+**Description:**  
+Represents the total number of validators participating in the consensus process.
+
+**Example Value:**  
+- `34` validators.
+
+### Metric: `cometbft_consensus_validators_power`
+
+**Description:**  
+Indicates the total voting power of all validators combined.
+
+**Example Value:**  
+- `34` total voting power.
+
+---
+
+## MEMPOOL METRICS
+### Metric: `cometbft_mempool_active_outbound_connections`
+
+**Description:**  
+Represents the number of active outbound connections used for gossiping transactions (experimental feature).
+
+**Example Value:**  
+- `7` active outbound connections.
+
+### Metric: `cometbft_mempool_size`
+
+**Description:**  
+Indicates the number of uncommitted transactions currently in the mempool.
+
+**Example Value:**  
+- `0` transactions in mempool.
+
+### Metric: `cometbft_mempool_size_bytes`
+
+**Description:**  
+Represents the total size of the mempool in bytes.
+
+**Example Value:**  
+- `0` bytes in mempool.
+
+## NETWORK PEERS
+### Metric: `cometbft_p2p_peers`
+
+**Description:**  
+Indicates the number of peers currently connected to the node.
+
+**Example Value:**  
+- `7` peers connected.
+
+---
+
+## BLOCK PROCESSING TIME
+### Metric: `cometbft_state_block_processing_time`
+
+**Description:**  
+Represents the time spent processing `FinalizeBlock`. This metric is recorded as a histogram, showing the number of blocks processed within different time ranges.
+
+**Value Interpretation:**  
+
+| Processing Time (seconds) | Number of Blocks Processed |
+|--------------------------|----------------------------|
+| `≤ 1`   | 0  |
+| `≤ 11`  | 1  |
+| `≤ 21`  | 13 |
+| `≤ 31`  | 18 |
+| `≤ 41`  | 19 |
+| `≤ 51`  | 19 |
+| `≤ 61`  | 19 |
+| `≤ 71`  | 19 |
+| `≤ 81`  | 19 |
+| `≤ 91`  | 19 |
+| `+Inf`  | 19 |
+
+**Additional Metrics:**
+- **Total Processing Time:** `391.85` seconds.
+- **Total Blocks Processed:** `19`.
+
+---
+
+## CONSENSUS PARAMETER UPDATES
+### Metric: `cometbft_state_consensus_param_updates`
+
+**Description:**  
+Represents the number of consensus parameter updates returned by the application since the process started.
+
+**Example Value:**  
+- `19` updates.
+
+## CPU USAGE
+### Metric: `process_cpu_seconds_total`
+
+**Description:**  
+Represents the total user and system CPU time spent by the process in seconds.
+
+**Example Value:**  
+- `25.81` seconds.
+
+---
+
+## FILE DESCRIPTORS
+### Metric: `process_max_fds`
+
+**Description:**  
+Indicates the maximum number of file descriptors that the process can open.
+
+**Example Value:**  
+- `65535` file descriptors.
+
+### Metric: `process_open_fds`
+
+**Description:**  
+Represents the number of file descriptors currently open by the process.
+
+**Example Value:**  
+- `119` open file descriptors.
+
+---
+
+## NETWORK USAGE
+### Metric: `process_network_receive_bytes_total`
+
+**Description:**  
+Indicates the total number of bytes received by the process over the network.
+
+**Example Value:**  
+- `8.88 TB` (`8.888071873671e+12` bytes).
+
+### Metric: `process_network_transmit_bytes_total`
+
+**Description:**  
+Indicates the total number of bytes sent by the process over the network.
+
+**Example Value:**  
+- `2.83 TB` (`2.83214477635e+12` bytes).
+
+---
+
+## MEMORY USAGE
+### Metric: `process_resident_memory_bytes`
+
+**Description:**  
+Represents the resident memory size (RAM) currently used by the process in bytes.
+
+**Example Value:**  
+- `294.38 MB` (`2.94375424e+08` bytes).
+
+### Metric: `process_virtual_memory_bytes`
+
+**Description:**  
+Indicates the total virtual memory size used by the process in bytes.
+
+**Example Value:**  
+- `3.73 GB` (`3.730767872e+09` bytes).
+
+### Metric: `process_virtual_memory_max_bytes`
+
+**Description:**  
+Indicates the maximum amount of virtual memory available to the process in bytes.
+
+**Example Value:**  
+- `18.44 EB` (`1.8446744073709552e+19` bytes).
+
+---
+
+## PROCESS START TIME
+### Metric: `process_start_time_seconds`
+
+**Description:**  
+Represents the start time of the process since the Unix epoch, in seconds.
+
+**Example Value:**  
+- `1.73901610886e+09` (approximately `2025-02-08 00:21:48 UTC`).
+
+
+
+
+
+
+
+
 ---
 
 ## How to Use These Metrics
