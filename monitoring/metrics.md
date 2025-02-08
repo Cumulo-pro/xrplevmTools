@@ -100,6 +100,17 @@ Indicates the total power of the byzantine validators.
 
 ---
 
+## CHAIN HEIGHT
+### Metric: `cometbft_consensus_height`
+
+**Description:**  
+Indicates the current height of the blockchain.
+
+**Example Value:**  
+- `14413294` blocks (for `chain_id="exrp_1440002-1"`).
+
+---
+
 ## MISSING VALIDATORS
 ### Metric: `cometbft_consensus_missing_validators`
 
