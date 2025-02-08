@@ -281,30 +281,37 @@ Indicates the total voting power of all validators combined.
 
 ---
 
-## MEMPOOL METRICS
+## ACTIVE OUTBOUND CONNECTIONS
 ### Metric: `cometbft_mempool_active_outbound_connections`
 
 **Description:**  
-Represents the number of active outbound connections used for gossiping transactions (experimental feature).
+Represents the number of active outbound connections used for gossiping transactions. This metric helps track how many connections are actively involved in transaction propagation. It is an **experimental feature**.
 
 **Example Value:**  
 - `7` active outbound connections.
 
+---
+
+## MEMPOOL SIZE
 ### Metric: `cometbft_mempool_size`
 
 **Description:**  
-Indicates the number of uncommitted transactions currently in the mempool.
+Indicates the number of uncommitted transactions currently in the mempool. The mempool stores transactions that have been broadcasted but not yet included in a block.
 
 **Example Value:**  
 - `0` transactions in mempool.
 
+---
+
+## MEMPOOL SIZE IN BYTES
 ### Metric: `cometbft_mempool_size_bytes`
 
 **Description:**  
-Represents the total size of the mempool in bytes.
+Represents the total size of the mempool in bytes. This metric gives an estimate of the memory footprint of the pending transactions waiting to be confirmed.
 
 **Example Value:**  
 - `0` bytes in mempool.
+
 
 ## NETWORK PEERS
 ### Metric: `cometbft_p2p_peers`
