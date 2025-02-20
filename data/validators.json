@@ -1,0 +1,196 @@
+[
+{
+    "name": "Imperator.co",
+    "webservices": "https://www.imperator.co/services/chain-services/testnets/xrp",
+    "x": "imperator_co",
+    "validatorlogo": "imperator.jpg",
+    "api": "https://lcd-xrp-testnet.imperator.co/",
+    "rpc": "https://rpc-xrp-testnet.imperator.co",
+    "grpc": "grpc-xrp-testnet.imperator.co:443",
+    "snapshot": "https://www.imperator.co/services/chain-services/testnets/xrp",
+    "websocket": "ws://rpc-xrp-testnet.imperator.co/wss/websocket",
+    "addrbook": "https://s3.imperator.co/testnets-addrbook/xrp/addrbook.json",
+    "peers": "https://s3.imperator.co/testnets-livepeers/xrp/peers.json"
+   },
+{
+    "name": "Polkachu",
+    "webservices": "https://polkachu.com/testnets/xrp",
+    "x": "polka_chu",
+    "validatorlogo": "polkachu.jpg",
+    "api": "https://xrp-testnet-api.polkachu.com/",
+    "rpc": "https://xrp-testnet-rpc.polkachu.com/",
+    "grpc": "https://polkachu.com/testnet_public_grpc",
+    "seed": "https://polkachu.com/testnets/xrp/seeds",
+    "snapshot": "https://polkachu.com/testnets/xrp/snapshots",
+    "websocket": "",
+    "addrbook": "https://polkachu.com/testnets/xrp/addrbooks",
+    "peers": "https://polkachu.com/testnets/xrp/peers",
+    "tools": "State-sync",
+    "tools_url": {
+        "State-sync" :"https://polkachu.com/testnets/xrp/state_sync"
+     },
+    "content":{
+       "Installation Guide": "https://polkachu.com/testnets/xrp/installation"
+    }
+   },
+{
+    "name": "Enigma",
+    "webservices": "https://enigma-validator.com/stake-with-us/xrp-testnet#services",
+    "x": "EnigmaValidator",
+    "validatorlogo": "enigma.png",
+    "api": "https://xrp-lcd.enigma-validator.com/",
+    "rpc": "https://xrp-rpc.enigma-validator.com/",
+    "grpc": "",
+    "snapshot": "https://services.enigma-validator.com/xrp/xrp_13246160.tar.lz4",
+    "websocket": "",
+    "addrbook": "https://services.enigma-validator.com/xrp/addrbook.json",
+    "peers": ""
+   },
+{
+    "name": "Trace",
+    "webservices": "https://trace-tm.tech/",
+    "x": "vovscorp",
+    "validatorlogo": "trace.jpg",
+    "api": "https://xrpl-api.trace-tm.tech/",
+    "rpc": "https://xrpl-rpc.trace-tm.tech/",
+    "grpc": "https://xrpl-grpc.trace-tm.tech/",
+    "snapshot": "https://snapshots.trace-tm.tech/test/xrpl/",
+    "websocket": "",
+    "explorer": "https://explorer.trace-tm.tech/exrp_1440002-1",
+    "peers": ""
+   },
+{
+    "name": "CoreNode",
+    "webservices": "https://github.com/Core-Node-Team/Xrpl-EVM/tree/main",
+    "x": "corenodeHQ",
+    "validatorlogo": "corenode.jpg",
+    "api": "https://xrpl-api.corenodehq.xyz/",
+    "rpc": "https://xrpl-rpc.corenodehq.xyz/",
+    "evm": "https://xrpl-evm.corenodehq.xyz/",
+    "snapshot": "https://github.com/Core-Node-Team/Xrpl-EVM/blob/main/Snap.md",
+    "websocket": "",
+    "explorer": "https://explorer.corenodehq.xyz/xrplevm-devnet/staking",
+    "peers": ""
+   },
+{
+    "name": "RPCdot.com",
+    "webservices": "https://service.rpcdot.com/xrpl/setup",
+    "x": "rpcdot",
+    "validatorlogo": "rpcdot.jpg",
+    "api": "xrpl-testnet-api.rpcdot.com",
+    "rpc": "xrpl-testnet-rpc.rpcdot.com",
+    "grpc": "",
+    "snapshot": "",
+    "websocket": "",
+    "explorer": "https://explorer.rpcdot.com/xrplevm-testnet",
+    "peers": ""
+   },
+{
+    "name": "MictoNode",
+    "webservices": "https://services.mictonode.com/)",
+    "x": "onurnft0",
+    "validatorlogo": "mictonode.jpg",
+    "api": "https://xrpl-testnet-api.mictonode.com",
+    "rpc": "https://xrpl-testnet-rpc.mictonode.com",
+    "grpc": "xrpl-testnet-grpc.mictonode.com:22090",
+    "snapshot": "https://services.mictonode.com/xrpl-evm/snapshot",
+    "websocket": "wss://xrpl-testnet-rpc.mictonode.com/websocket",
+    "evm": "https://xrpl-testnet-evmrpc.mictonode.com",
+    "content":{
+      "Node Guide": "https://services.mictonode.com/xrpl-evm"
+     },
+    "peers": ""
+   },
+{
+    "name": "NODERS",
+    "webservices": "https://noders.services/testnet-networks/xrp",
+    "x": "NODERS_TEAM",
+    "validatorlogo": "noders.jpg",
+    "api": "https://xrp-t-api.noders.services/",
+    "rpc": "https://xrp-t-rpc.noders.services/",
+    "grpc": "https://xrp-t-grpc.noders.services/",
+    "snapshot": "https://noders.services/testnet-networks/xrp/snapshot",
+    "websocket": "",
+    "addrbook": "",
+    "content":{
+      "Node Guide": "https://noders.services/testnet-networks/xrp/install"
+     },
+    "tools": "state-sync",
+      "tools_url": {
+      "state-sync": "https://noders.services/testnet-networks/xrp/statesync"
+    },
+    "peers": "https://noders.services/testnet-networks/xrp/live-peers/"
+   },
+{
+    "name": "LuckyStar",
+    "webservices": "https://xrpl-testnet-services.luckystar.asia/xrpl",
+    "x": "LuckyStar_Asia",
+    "validatorlogo": "luckystar.jpg",
+    "api": "https://xrpl-testnet-api.luckystar.asia/",
+    "rpc": "http://xrpl-testnet-rpc.luckystar.asia/",
+    "grpc": "",
+    "snapshot": "https://xrpl-testnet-services.luckystar.asia/xrpl/exrp_1440002-1_latest.tar",
+    "websocket": "",
+    "addrbook": "https://xrpl-testnet-services.luckystar.asia/xrpl/addrbook.json",
+    "explorer": "https://explorer.luckystar.asia/xrpl-Testnet/staking"
+   },
+{
+    "name": "blockitize",
+    "webservices": "https://services.blockitize.com/?project=xrplevm",
+    "x": "blockitize",
+    "validatorlogo": "blockitize.jpg",
+    "api": "https://xrplevm-devnet-api.blockitize.com/",
+    "rpc": "https://xrplevm-devnet-rpc.blockitize.com/",
+    "grpc": "https://xrplevm-devnet-grpc.blockitize.com:80",
+    "snapshot": "https://services.blockitize.com/?project=xrplevm#snapshot",
+    "websocket": "ws://xrplevm-devnet-ws.blockitize.com/",
+    "evm": "http://xrplevm-devnet-jsonrpc.blockitize.com",
+    "peers": ""
+   },
+{
+    "name": "Cumulo",
+    "webservices": "https://cumulo.pro/services/xrplevm/",
+    "x": "Cumulo_pro",
+    "validatorlogo": "cumulo.jpg",
+    "api": "api.xrpl.cumulo.com.es",
+    "rpc": "rpc.xrpl.cumulo.com.es",
+    "grpc": "grpc.xrpl.cumulo.com.es",
+    "snapshot": "https://cumulo.pro/services/xrplevm/",
+    "websocket": "",
+    "addrbook": "",
+    "tools": "XRPL EVM Node Monitoring",
+      "tools_url": {
+      "state-sync": "https://cumulo.pro/services/xrplevm/"
+    },
+    "content":{
+      "Node Guide": "https://cumulo.pro/services/xrplevm/"
+     },
+    "peers": "https://cumulo.pro/services/xrplevm/"
+   },
+{
+    "name": "Polkachu",
+    "webservices": "",
+    "x": "",
+    "validatorlogo": ".jpg",
+    "api": "",
+    "rpc": "",
+    "grpc": "",
+    "snapshot": "",
+    "websocket": "",
+    "addrbook": "",
+    "peers": ""
+   },
+{
+    "name": "Polkachu",
+    "webservices": "",
+    "x": "",
+    "validatorlogo": ".jpg",
+    "api": "",
+    "rpc": "",
+    "grpc": "",
+    "snapshot": "",
+    "websocket": "",
+    "addrbook": "",
+    "peers": ""
+   }
+]
