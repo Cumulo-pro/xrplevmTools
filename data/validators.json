@@ -166,31 +166,5 @@
       "Node Guide": "https://cumulo.pro/services/xrplevm/"
      },
     "peers": "https://cumulo.pro/services/xrplevm/"
-   },
-{
-    "name": "Polkachu",
-    "webservices": "",
-    "x": "",
-    "validatorlogo": ".jpg",
-    "api": "",
-    "rpc": "",
-    "grpc": "",
-    "snapshot": "",
-    "websocket": "",
-    "addrbook": "",
-    "peers": ""
-   },
-{
-    "name": "Polkachu",
-    "webservices": "",
-    "x": "",
-    "validatorlogo": ".jpg",
-    "api": "",
-    "rpc": "",
-    "grpc": "",
-    "snapshot": "",
-    "websocket": "",
-    "addrbook": "",
-    "peers": ""
    }
 ]
