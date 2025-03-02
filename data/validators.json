@@ -166,5 +166,23 @@
       "Node Guide": "https://cumulo.pro/services/xrplevm/"
      },
     "peers": "https://cumulo.pro/services/xrplevm/"
-   }
+   },
+    ,
+    {
+    "name": "𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀",
+    "webservices": "https://teletype.in/@lesnik13utsa/Pw2GAVJJ_7y",
+    "x": "lesnik13utsa",
+    "validatorlogo": "𝐥𝐞𝐬𝐧𝐢𝐤.jpg",
+    "explorer": "https://exp.utsa.tech/xrpl-devnet/staking",
+    "api": " https://d-xrpl.api.utsa.tech",
+    "rpc": "https://d-xrpl.rpc.utsa.tech",
+    "grpc": "d-xrpl.grpc.utsa.tech:433",
+    "evm": "https://d-xrpl.evm.utsa.tech",
+    "seeds": "",
+    "addrbook": "",
+    "snapshot": "https://utsa.gitbook.io/services/testnet/xrpl-evm/snapshots",
+    "content": {
+        "Node Installation": "https://utsa.gitbook.io/services/testnet/xrpl-evm"       
+    }
+}
 ]
