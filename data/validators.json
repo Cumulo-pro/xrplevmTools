@@ -183,5 +183,12 @@
     "content": {
         "Node Installation": "https://utsa.gitbook.io/services/testnet/xrpl-evm"       
     }
-}
+},
+    {
+    "name": "STAKEME",
+    "webservices": "",
+    "x": "stakeme_pro",
+    "validatorlogo": "stakeme.jpg",
+    "explorer": "https://xrpl.exploreme.pro/"
+     }     
 ]
