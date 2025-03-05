@@ -205,5 +205,18 @@
     "seeds": "",
     "addrbook": "",
     "snapshot": ""
- }
+ },
+    {
+    "name": "RPCdot.com",
+    "webservices": "https://service.rpcdot.com/xrpl/services",
+    "x": "rpcdot",
+    "validatorlogo": "rpcdot.jpg",
+    "api": "https://xrpl-testnet-api.rpcdot.com",
+    "rpc": "https://xrpl-testnet-rpc.rpcdot.com",
+    "grpc": "",
+    "snapshot": "",
+    "websocket": "",
+    "explorer": "https://explorer.rpcdot.com/xrplevm-testnet",
+    "peers": ""
+   },
 ]
