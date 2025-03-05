@@ -164,7 +164,7 @@
     }
  },
      {
-    "name": "",
+    "name": "blockitize",
     "webservices": "",
     "x": "blockitize",
     "validatorlogo": "blockitize.jpg",
@@ -173,6 +173,35 @@
     "rpc": "http://xrplevm-testnet-rpc.blockitize.com/",
     "grpc": "http://xrplevm-testnet-grpc.blockitize.com/",
     "evm": "https://xrplevm-testnet-jsonrpc.blockitize.com/",
+    "seeds": "",
+    "addrbook": "",
+    "snapshot": ""
+ },
+     {
+    "name": "DeFatRat",
+    "webservices": "",
+    "x": "tphat2616",
+    "validatorlogo": "defatrat.jpg",
+    "explorer": "https://testnet.techhubs.asia/xrpl/staking",
+    "api": "https://xrpl-testnet-api.techhubs.asia/",
+    "rpc": "https://xrpl-testnet-rpc.techhubs.asia/",
+    "grpc": "65.109.86.235:47090",
+    "evm": "https://xrpl-testnet-json.techhubs.asia/",
+    "seeds": "",
+    "addrbook": "",
+    "snapshot": "https://xrpl-testnet-snapshots.techhubs.asia/"
+ }
+    },
+     {
+    "name": "",
+    "webservices": "https://service.node9x.com/testnet/xrpl-evm",
+    "x": "",
+    "validatorlogo": "node9x.jpg",
+    "explorer": "https://explorer.node9x.com/XRLP",
+    "api": "https://xrpl-api.node9x.com/",
+    "rpc": "https://xrpl-rpc.node9x.com/ ",
+    "grpc": "",
+    "evm": "https://xrpl-evm.node9x.com/",
     "seeds": "",
     "addrbook": "",
     "snapshot": ""
