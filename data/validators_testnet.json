@@ -192,7 +192,7 @@
     "snapshot": "https://xrpl-testnet-snapshots.techhubs.asia/"
     },
      {
-    "name": "",
+    "name": "node9x",
     "webservices": "https://service.node9x.com/testnet/xrpl-evm",
     "x": "",
     "validatorlogo": "node9x.jpg",
