@@ -152,7 +152,7 @@
     "x": "lesnik13utsa",
     "validatorlogo": "𝐥𝐞𝐬𝐧𝐢𝐤.jpg",
     "explorer": "https://exp.utsa.tech/xrpl-testnet/staking",
-    "api": " https://t-xrpl.api.utsa.tech",
+    "api": "https://t-xrpl.api.utsa.tech",
     "rpc": "https://t-xrpl.rpc.utsa.tech",
     "grpc": "t-xrpl.grpc.utsa.tech:433",
     "evm": "https://t-xrpl.evm.utsa.tech",
@@ -162,5 +162,19 @@
     "content": {
         "Node Installation": "https://utsa.gitbook.io/services/testnet/xrpl-evm"       
     }
+ },
+     {
+    "name": "",
+    "webservices": "",
+    "x": "blockitize",
+    "validatorlogo": "blockitize.jpg",
+    "explorer": "",
+    "api": "https://xrplevm-testnet-api.blockitize.com/",
+    "rpc": "http://xrplevm-testnet-rpc.blockitize.com/",
+    "grpc": "http://xrplevm-testnet-grpc.blockitize.com/",
+    "evm": "https://xrplevm-testnet-jsonrpc.blockitize.com/",
+    "seeds": "",
+    "addrbook": "",
+    "snapshot": ""
  }
 ]
