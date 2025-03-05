@@ -1,0 +1,166 @@
+[
+{
+    "name": "Imperator.co",
+    "webservices": "https://www.imperator.co/services/chain-services/testnets/xrp",
+    "x": "imperator_co",
+    "validatorlogo": "imperator.jpg"    
+   },
+  {
+    "name": "Mekong Labs",
+    "webservices": "https://testnet.mekonglabs.tech/xrpl/staking",
+    "x": "mekong_labs",
+    "validatorlogo": "mekong.jpg",
+    "api": "https://exrpd-testnet-api.mekonglabs.tech/",
+    "rpc": "https://exrpd-testnet-rpc.mekonglabs.tech/",
+    "grpc": "exrpd-testnet-grpc.mekonglabs.tech:47090",
+    "evm": "https://exrpd-testnet-json-rpc.mekonglabs.tech",
+    "snapshot": "http://exrpd-testnet-snapshots.mekonglabs.tech/",
+    "explorer": "https://testnet.mekonglabs.tech/xrpl/staking",
+    "content": {
+        "Node Guide": "https://github.com/Mekong-labs/NodeGuide/tree/main/XRPL"
+    }
+},
+  {
+    "name": "MictoNode",
+    "x": "onurnft0",
+    "validatorlogo": "mictonode.jpg",
+    "rpc": "https://xrpl-testnet-rpc.mictonode.com",
+    "rpc_wss": "wss://xrpl-testnet-rpc.mictonode.com/websocket",
+    "api": "https://xrpl-testnet-api.mictonode.com",
+    "grpc": "xrpl-testnet-grpc.mictonode.com:22090",
+    "evm_rpc": "https://xrpl-testnet-evmrpc.mictonode.com",
+    "evm_rpc_wss": "wss://xrpl-testnet-evmrpc-wss.mictonode.com",
+    "peer": "d8106774d544591c0dd5b073ac0fd2e481669cf0@xrpl-testnet-peers.mictonode.com:22056",
+    "explorer": "https://explorer.mictonode.com/XRPL-Testnet/staking/",
+    "snapshot": "https://services.mictonode.com/xrpl-evm/snapshot",
+    "content": {
+        "Basic Guide": "https://services.mictonode.com/xrpl-evm"
+    }
+},
+{
+    "name": "Polkachu",
+    "webservices": "https://polkachu.com/testnets/xrp",
+    "x": "polka_chu",
+    "validatorlogo": "polkachu.jpg",
+    "api": "https://xrp-testnet-api.polkachu.com/",
+    "rpc": "https://xrp-testnet-rpc.polkachu.com/",
+    "grpc": "https://polkachu.com/testnet_public_grpc",
+    "seed": "https://polkachu.com/testnets/xrp/seeds",
+    "snapshot": "https://polkachu.com/testnets/xrp/snapshots",
+    "websocket": "",
+    "addrbook": "https://polkachu.com/testnets/xrp/addrbooks",
+    "peers": "https://polkachu.com/testnets/xrp/peers",
+    "tools": "State-sync",
+    "tools_url": {
+        "State-sync" :"https://polkachu.com/testnets/xrp/state_sync"
+     },
+    "content":{
+       "Installation Guide": "https://polkachu.com/testnets/xrp/installation"
+    }
+   },
+{
+    "name": "Enigma",
+    "webservices": "https://enigma-validator.com/stake-with-us/xrp-testnet#services",
+    "x": "EnigmaValidator",
+    "validatorlogo": "enigma.png",
+    "api": "https://xrp-lcd.enigma-validator.com/",
+    "rpc": "https://xrp-rpc.enigma-validator.com/",
+    "grpc": "",
+    "snapshot": "https://services.enigma-validator.com/xrp/xrp_13246160.tar.lz4",
+    "websocket": "",
+    "addrbook": "https://services.enigma-validator.com/xrp/addrbook.json",
+    "peers": ""
+   },
+{
+    "name": "CoreNode",
+    "webservices": "https://github.com/Core-Node-Team/Xrpl-EVM/tree/main",
+    "x": "corenodeHQ",
+    "validatorlogo": "corenode.jpg",
+    "api": "https://xrpl-api.corenodehq.xyz/",
+    "rpc": "https://xrpl-rpc.corenodehq.xyz/",
+    "evm": "https://xrpl-evm.corenodehq.xyz/",
+    "snapshot": "https://github.com/Core-Node-Team/Xrpl-EVM/blob/main/Snap.md",
+    "websocket": "",
+    "explorer": "https://explorer.corenodehq.xyz/xrplevm-devnet/staking",
+    "peers": ""
+   },
+{
+    "name": "MictoNode",
+    "webservices": "https://services.mictonode.com/)",
+    "x": "onurnft0",
+    "validatorlogo": "mictonode.jpg",
+    "api": "https://xrpl-testnet-api.mictonode.com",
+    "rpc": "https://xrpl-testnet-rpc.mictonode.com",
+    "grpc": "xrpl-testnet-grpc.mictonode.com:22090",
+    "snapshot": "https://services.mictonode.com/xrpl-evm/snapshot",
+    "websocket": "wss://xrpl-testnet-rpc.mictonode.com/websocket",
+    "evm": "https://xrpl-testnet-evmrpc.mictonode.com",
+    "content":{
+      "Node Guide": "https://services.mictonode.com/xrpl-evm"
+     }
+   },
+{
+    "name": "NodeStake",
+    "webservices": "https://nodestake.org/xrp",
+    "x": "NodeStake_top",
+    "validatorlogo": "nodestake.jpg",
+    "explorer": "https://explorer.nodestake.org/xrp-testnet",
+    "peers": "https://nodestake.org/xrp",
+    "seeds": "327fb4151de9f78f29ff10714085e347a4e3c836@rpc-t.xrp.nodestake.org:666",
+    "api": "https://api-t.xrp.nodestake.org",
+    "rpc": "https://rpc-t.xrp.nodestake.org",
+    "grpc": "https://grpc-t.xrp.nodestake.org:443",
+    "evm": "https://evmrpc-t.xrp.nodestake.org/",
+    "addrbook": "https://ss-t.xrp.nodestake.org/addrbook.json"
+},
+{
+    "name": "blockitize",
+    "webservices": "https://services.blockitize.com/?project=xrplevm",
+    "x": "blockitize",
+    "validatorlogo": "blockitize.jpg",
+    "api": "https://xrplevm-devnet-api.blockitize.com/",
+    "rpc": "https://xrplevm-devnet-rpc.blockitize.com/",
+    "grpc": "https://xrplevm-devnet-grpc.blockitize.com:80",
+    "snapshot": "https://services.blockitize.com/?project=xrplevm#snapshot",
+    "websocket": "ws://xrplevm-devnet-ws.blockitize.com/",
+    "evm": "http://xrplevm-devnet-jsonrpc.blockitize.com",
+    "peers": ""
+   },
+{
+    "name": "Cumulo",
+    "webservices": "https://cumulo.pro/services/xrplevm/",
+    "x": "Cumulo_pro",
+    "validatorlogo": "cumulo.jpg",
+    "api": "https://api.xrpl.cumulo.com.es",
+    "rpc": "https://rpc.xrpl.cumulo.com.es",
+    "grpc": "grpc.xrpl.cumulo.com.es",
+    "snapshot": "https://cumulo.pro/services/xrplevm/",
+    "websocket": "",
+    "addrbook": "",
+    "tools": "XRPL EVM Node Monitoring",
+      "tools_url": {
+      "state-sync": "https://cumulo.pro/services/xrplevm/"
+    },
+    "content":{
+      "Node Guide": "https://cumulo.pro/services/xrplevm/"
+     },
+    "peers": "https://cumulo.pro/services/xrplevm/"
+   },
+    {
+    "name": "𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀",
+    "webservices": "https://teletype.in/@lesnik13utsa/Pw2GAVJJ_7y",
+    "x": "lesnik13utsa",
+    "validatorlogo": "𝐥𝐞𝐬𝐧𝐢𝐤.jpg",
+    "explorer": "https://exp.utsa.tech/xrpl-testnet/staking",
+    "api": " https://t-xrpl.api.utsa.tech",
+    "rpc": "https://t-xrpl.rpc.utsa.tech",
+    "grpc": "t-xrpl.grpc.utsa.tech:433",
+    "evm": "https://t-xrpl.evm.utsa.tech",
+    "seeds": "",
+    "addrbook": "",
+    "snapshot": "https://utsa.gitbook.io/services/testnet/xrpl-evm/snapshots",
+    "content": {
+        "Node Installation": "https://utsa.gitbook.io/services/testnet/xrpl-evm"       
+    }
+ }
+]
