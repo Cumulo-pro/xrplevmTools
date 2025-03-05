@@ -198,7 +198,7 @@
     "validatorlogo": "node9x.jpg",
     "explorer": "https://explorer.node9x.com/XRLP",
     "api": "https://xrpl-api.node9x.com/",
-    "rpc": "https://xrpl-rpc.node9x.com/ ",
+    "rpc": "https://xrpl-rpc.node9x.com/",
     "grpc": "",
     "evm": "https://xrpl-evm.node9x.com/",
     "seeds": "",
