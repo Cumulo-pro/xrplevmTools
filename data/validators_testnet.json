@@ -85,21 +85,6 @@
     "peers": ""
    },
 {
-    "name": "MictoNode",
-    "webservices": "https://services.mictonode.com/)",
-    "x": "onurnft0",
-    "validatorlogo": "mictonode.jpg",
-    "api": "https://xrpl-testnet-api.mictonode.com",
-    "rpc": "https://xrpl-testnet-rpc.mictonode.com",
-    "grpc": "xrpl-testnet-grpc.mictonode.com:22090",
-    "snapshot": "https://services.mictonode.com/xrpl-evm/snapshot",
-    "websocket": "wss://xrpl-testnet-rpc.mictonode.com/websocket",
-    "evm": "https://xrpl-testnet-evmrpc.mictonode.com",
-    "content":{
-      "Node Guide": "https://services.mictonode.com/xrpl-evm"
-     }
-   },
-{
     "name": "NodeStake",
     "webservices": "https://nodestake.org/xrp",
     "x": "NodeStake_top",
