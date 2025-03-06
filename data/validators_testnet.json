@@ -254,5 +254,5 @@
   "Consensus Analytics": "https://itrocket.net/services/testnet/xrplevm/analytics/consensus/",
   "Peer scanner": "https://itrocket.net/services/testnet/xrplevm/public-rpc/"
     }
- )
+  }
 ]
