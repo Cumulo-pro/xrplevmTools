@@ -233,5 +233,26 @@
         "content":{
       "Node Guide": "https://luckystar-1.gitbook.io/luckystar.asia/testnet/cosmos-eco/xrpl"
      }
-   }
+   },
+    {
+  "name": "ITRocket",
+  "webservices": "https://itrocket.net/services/mainnet/celestia/",
+  "x": "itrocket_team",
+  "validatorlogo": "itrocket.jpg",
+  "peers": "166f7e48e1c756cc663fee5be96ab2bbdb4db970@xrplevm-testnet-peer.itrocket.net:13656",
+  "seeds": "6a271a9b7d07393a1521b1c7386a9fa9147a1762@xrplevm-testnet-seed.itrocket.net:16656",
+  "api": "https://xrplevm-testnet-api.itrocket.net",
+  "rpc": "https://xrplevm-testnet-rpc.itrocket.net",
+  "grpc": "xrplevm-testnet-grpc.itrocket.net:443",
+  "websocket": "wss://celestia-mainnet-ws.itrocket.net:443/websocket",
+  "evm": "https://xrplevm-testnet-evm.itrocket.net",
+  "snapshot": "https://itrocket.net/services/testnet/xrplevm/",
+  "addrbook": "https://server-2.itrocket.net/testnet/xrplevm/addrbook.json",
+  "tools": "Decentralization Analytics, Governance Bot, Peer scanner, RPC Scanner, DA Nodes Monitoring",
+ "tools_url": {
+  "Validator Analytics": "https://itrocket.net/services/testnet/xrplevm/analytics/validators-performance/?view=uptime&mode=full&range=allTime%20-",
+  "Consensus Analytics": "https://itrocket.net/services/testnet/xrplevm/analytics/consensus/",
+  "Peer scanner": "https://itrocket.net/services/testnet/xrplevm/public-rpc/"
+    }
+ )
 ]
