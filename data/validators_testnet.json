@@ -239,5 +239,12 @@
   "Consensus Analytics": "https://itrocket.net/services/testnet/xrplevm/analytics/consensus/",
   "Peer scanner": "https://itrocket.net/services/testnet/xrplevm/public-rpc/"
     }
-  }
+  },
+     {
+    "name": "STAKEME",
+    "webservices": "",
+    "x": "stakeme_pro",
+    "validatorlogo": "stakeme.jpg",
+    "explorer": "https://testnet.xrpl.exploreme.pro/"
+     }     
 ]
