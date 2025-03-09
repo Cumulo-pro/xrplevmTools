@@ -246,5 +246,18 @@
     "x": "stakeme_pro",
     "validatorlogo": "stakeme.jpg",
     "explorer": "https://testnet.xrpl.exploreme.pro/"
-     }     
+     } ,
+    {
+  "name": "p10node",
+  "webservices": "",
+  "x": "",
+  "validatorlogo": "p10node.jpg",
+  "peers": "",
+  "seeds": "",
+  "api": " https://api.testnet.xrplevm.p10node.com",
+  "rpc": "https://rpc.testnet.xrplevm.p10node.com",
+  "grpc": "grpc.testnet.xrplevm.p10node.com",
+  "websocket": "https://ws.json-rpc.testnet.xrplevm.p10node.com",
+  "evm": "https://json-rpc.testnet.xrplevm.p10node.com",
+  "snapshot": ""
 ]
