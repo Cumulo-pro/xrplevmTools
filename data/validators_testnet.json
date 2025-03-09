@@ -260,4 +260,5 @@
   "websocket": "https://ws.json-rpc.testnet.xrplevm.p10node.com",
   "evm": "https://json-rpc.testnet.xrplevm.p10node.com",
   "snapshot": ""
+    }
 ]
