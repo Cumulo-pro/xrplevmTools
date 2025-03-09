@@ -250,7 +250,7 @@
     {
   "name": "p10node",
   "webservices": "",
-  "x": "",
+  "x": "p10node",
   "validatorlogo": "p10node.jpg",
   "peers": "",
   "seeds": "",
