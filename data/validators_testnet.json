@@ -265,7 +265,7 @@
   "name": "XSS",
   "webservices": "https://services.xsslabs.tech/xrpl-evm/installation",
   "x": "",
-  "validatorlogo": "xss.jpg",
+  "validatorlogo": "xss.jpeg",
   "peers": "",
   "seeds": "",
   "api": "https://api-xrpl.xsslabs.tech",
