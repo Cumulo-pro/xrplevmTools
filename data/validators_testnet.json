@@ -3,7 +3,11 @@
     "name": "Imperator.co",
     "webservices": "https://www.imperator.co/services/chain-services/testnets/xrp",
     "x": "imperator_co",
-    "validatorlogo": "imperator.jpg"    
+    "validatorlogo": "imperator.jpg",
+    "api": "",
+    "rpc": "https://rpc-xrp-devnet.imperator.co",
+    "grpc": "grpc-xrp-devnet.imperator.co:443",
+    "evm": ""
    },
   {
     "name": "Mekong Labs",
@@ -274,5 +278,14 @@
   "explorer": "https://explorer.xsslabs.tech/XRPL-EVM",
   "evm": "",
   "snapshot": ""
+    },
+     {
+  "name": "Đông QN",
+  "webservices": "",
+  "x": "dongqn69",
+  "validatorlogo": "dongqn69.jpeg",
+  "api": "https://api.testnet.xrplevm.dongqn.com",
+  "rpc": "https://rpc.testnet.xrplevm.dongqn.com",
+  "grpc": "grpc.testnet.xrplevm.dongqn.com"
     }
 ]
