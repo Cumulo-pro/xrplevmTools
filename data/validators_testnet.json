@@ -283,7 +283,7 @@
   "name": "Đông QN",
   "webservices": "",
   "x": "dongqn69",
-  "validatorlogo": "dongqn69.jpeg",
+  "validatorlogo": "dongqn69.jpg",
   "api": "https://api.testnet.xrplevm.dongqn.com",
   "rpc": "https://rpc.testnet.xrplevm.dongqn.com",
   "grpc": "grpc.testnet.xrplevm.dongqn.com"
