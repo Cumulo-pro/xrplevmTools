@@ -279,7 +279,7 @@
   "evm": "",
   "snapshot": ""
     },
-     {
+  {
   "name": "Đông QN",
   "webservices": "",
   "x": "dongqn69",
@@ -287,5 +287,17 @@
   "api": "https://api.testnet.xrplevm.dongqn.com",
   "rpc": "https://rpc.testnet.xrplevm.dongqn.com",
   "grpc": "grpc.testnet.xrplevm.dongqn.com"
-    }
+},
+ {
+  "name": "Zstake ",
+  "webservices": " https://docs.zstake.xyz/xrpl-evm",
+  "x": "",
+  "validatorlogo": "zstake.jpg",
+  "api": "https://xrpl-testnet-api.zstake.xyz",
+  "rpc": "https://xrpl-testnet-rpc.zstake.xyz",
+  "grpc": "",
+  "websocket": "wss://xrpl-testnet-wss.zstake.xyz",
+  "evm": "https://xrpl-testnet-evm.zstake.xyz",
+  "snapshot": "",
+  "addrbook": ""
 ]
