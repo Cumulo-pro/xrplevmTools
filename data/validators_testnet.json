@@ -49,7 +49,7 @@
     "api": "https://xrp-testnet-api.polkachu.com/",
     "rpc": "https://xrp-testnet-rpc.polkachu.com/",
     "grpc": "https://polkachu.com/testnet_public_grpc",
-    "seed": "https://polkachu.com/testnets/xrp/seeds",
+    "seeds": "https://polkachu.com/testnets/xrp/seeds",
     "snapshot": "https://polkachu.com/testnets/xrp/snapshots",
     "websocket": "",
     "addrbook": "https://polkachu.com/testnets/xrp/addrbooks",
