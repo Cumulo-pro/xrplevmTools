@@ -291,7 +291,7 @@
  {
   "name": "Zstake ",
   "webservices": " https://docs.zstake.xyz/xrpl-evm",
-  "x": "",
+  "x": "stv_8000",
   "validatorlogo": "zstake.jpg",
   "api": "https://xrpl-testnet-api.zstake.xyz",
   "rpc": "https://xrpl-testnet-rpc.zstake.xyz",
