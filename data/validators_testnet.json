@@ -34,7 +34,7 @@
     "grpc": "xrpl-testnet-grpc.mictonode.com:22090",
     "websocket": "wss://xrpl-testnet-evmrpc-wss.mictonode.com",
     "evm": "https://xrpl-testnet-evmrpc.mictonode.com",
-    "peer": "d8106774d544591c0dd5b073ac0fd2e481669cf0@xrpl-testnet-peers.mictonode.com:22056",
+    "peers": "d8106774d544591c0dd5b073ac0fd2e481669cf0@xrpl-testnet-peers.mictonode.com:22056",
     "explorer": "https://explorer.mictonode.com/XRPL-Testnet/staking/",
     "snapshot": "https://services.mictonode.com/xrpl-evm/snapshot",
     "content": {
