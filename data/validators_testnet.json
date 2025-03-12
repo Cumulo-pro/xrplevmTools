@@ -227,7 +227,7 @@
   "name": "ITRocket",
   "webservices": "https://itrocket.net/services/mainnet/celestia/",
   "x": "itrocket_team",
-  "validatorlogo": "itrocket.jpg",
+  "validatorlogo": "itrocket.png",
   "peers": "166f7e48e1c756cc663fee5be96ab2bbdb4db970@xrplevm-testnet-peer.itrocket.net:13656",
   "seeds": "6a271a9b7d07393a1521b1c7386a9fa9147a1762@xrplevm-testnet-seed.itrocket.net:16656",
   "api": "https://xrplevm-testnet-api.itrocket.net",
