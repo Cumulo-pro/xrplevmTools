@@ -225,7 +225,7 @@
    },
     {
   "name": "ITRocket",
-  "webservices": "https://itrocket.net/services/mainnet/celestia/",
+  "webservices": "https://itrocket.net/services/testnet/xrplevm/",
   "x": "itrocket_team",
   "validatorlogo": "itrocket.png",
   "peers": "166f7e48e1c756cc663fee5be96ab2bbdb4db970@xrplevm-testnet-peer.itrocket.net:13656",
