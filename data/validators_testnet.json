@@ -303,7 +303,7 @@
   "tools": "Testnet Faucet for XRPLEVM",
   "tools_url": {
         "Testnet Faucet for XRPLEVM": "https://xrplevm.faucet.zstake.xyz/"
-    },
+    }
  },
     {
     "name": "STAVR",
