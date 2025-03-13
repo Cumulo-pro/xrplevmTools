@@ -299,6 +299,6 @@
   "websocket": "wss://xrpl-testnet-wss.zstake.xyz",
   "evm": "https://xrpl-testnet-evm.zstake.xyz",
   "snapshot": "",
-  "addrbook": ""
+  "explorer": "https://explorer.zstake.xyz/exrp"
  }
 ]
