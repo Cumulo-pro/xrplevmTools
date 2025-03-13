@@ -299,7 +299,11 @@
   "websocket": "wss://xrpl-testnet-wss.zstake.xyz",
   "evm": "https://xrpl-testnet-evm.zstake.xyz",
   "snapshot": "",
-  "explorer": "https://explorer.zstake.xyz/exrp"
+  "explorer": "https://explorer.zstake.xyz/exrp",
+  "tools": "Testnet Faucet for XRPLEVM",
+  "tools_url": {
+        "Testnet Faucet for XRPLEVM": "https://xrplevm.faucet.zstake.xyz/"
+    },
  },
     {
     "name": "STAVR",
