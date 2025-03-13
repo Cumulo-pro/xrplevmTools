@@ -300,5 +300,27 @@
   "evm": "https://xrpl-testnet-evm.zstake.xyz",
   "snapshot": "",
   "explorer": "https://explorer.zstake.xyz/exrp"
- }
+ },
+    {
+    "name": "STAVR",
+    "webservices": "https://stavr-team.gitbook.io/nodes-guides/testnets/xrpl/",
+    "validatorlogo": "stavr.jpg",
+    "explorer": "https://explorer.stavr.tech/Xrpl-Testnet/staking",
+    "api": "https://xrpl.api.t.stavr.tech",
+    "rpc": "https://xrpl.rpc.t.stavr.tech",
+    "grpc": "xrpl.grpc.t.stavr.tech:118",
+    "evm": "https://xrpl.evm.t.stavr.tech",
+    "websocket": "wss://xrpl.wss.t.stavr.tech:443",
+    "snapshot": "https://stavr-team.gitbook.io/nodes-guides/testnets/xrpl/sync",
+    "peers": "641b87e521fa3b06d5d1699f2ba8b2125f9ca57c@xrpl-t.peer.stavr.tech:3356",
+    "tools": "StateSync,Archive Node",
+    "addrbook": "https://server-1.stavr.tech/Testnet/Xrpl/addrbook.json",
+    "tools_url": {
+        "StateSync": "https://stavr-team.gitbook.io/nodes-guides/testnets/xrpl/sync",
+        "Sync Checker": "https://stavr-team.gitbook.io/nodes-guides/testnets/xrpl/sync-checker"
+    },
+    "content":{
+    "Node Guide": "https://stavr-team.gitbook.io/nodes-guides/testnets/xrpl/node-installation"
+     }
+}
 ]
