@@ -322,5 +322,17 @@
     "content":{
     "Node Guide": "https://stavr-team.gitbook.io/nodes-guides/testnets/xrpl/node-installation"
      }
-}
+},
+    {
+    "name": "Cosmonaut Stakes ",
+    "webservices": "",
+    "x": "CosmonautStakes",
+    "validatorlogo": "cosmonautstakes.jpg",
+    "explorer": "",
+    "api": "https://xrpl-testnet-rest.cosmonautstakes.com",
+    "rpc": "https://xrpl-testnet-rpc.cosmonautstakes.com",
+    "grpc": "xrpl-testnet-grpc.cosmonautstakes.com:15490",
+    "evm": "https://xrpl-testnet-evm.cosmonautstakes.com",
+    "websocket": ""   
+  }
 ]
