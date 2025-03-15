@@ -338,5 +338,25 @@
     "grpc": "xrpl-testnet-grpc.cosmonautstakes.com:15490",
     "evm": "https://xrpl-testnet-evm.cosmonautstakes.com",
     "websocket": ""   
-  }
+  },
+    {
+    "name": "",
+    "webservices": "https://services.xsslabs.tech/xrpl-evm/",
+    "validatorlogo": "xss.jpeg",
+    "explorer": "https://explorer.xsslabs.tech/XRPL-EVM",
+    "api": "https://xrpl-evm-api.xsslabs.tech/",
+    "rpc": "https://xrpl-evm-rpc.xsslabs.tech/",
+    "grpc": "xrpl-evm-grpc.xsslabs.tech/",
+    "evm": "",
+    "websocket": "",
+    "snapshot": "",
+    "peers": "",
+    "addrbook": "",
+    "tools_url": {
+        "Auto_install Script": "https://services.xsslabs.tech/xrpl-evm/installation"
+    },
+    "content":{
+      "Node Guide": "https://services.xsslabs.tech/xrpl-evm/installation"
+     }
+}
 ]
