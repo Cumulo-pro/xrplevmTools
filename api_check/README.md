@@ -26,5 +26,8 @@ This tool uses a Node.js application to automatically assess the status of vario
 - The table shows the validator's name, API endpoint, status (e.g., **Working** or **Offline**), and additional details.
 - This allows users to quickly identify which APIs are operational and which ones are experiencing issues.
 
+![image](https://github.com/user-attachments/assets/f50bab96-1ce2-4e22-9bda-1dfd2ae0eb5d)
+
+
 ## Summary
 The API verification tool combines automated JSON retrieval, real-world navigation simulation using Puppeteer, and periodic status updates to provide real-time monitoring of various APIs. This setup helps administrators quickly detect and address any issues with the API endpoints.
