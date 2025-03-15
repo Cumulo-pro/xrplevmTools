@@ -340,7 +340,7 @@
     "websocket": ""   
   },
     {
-    "name": "",
+    "name": "XSS",
     "webservices": "https://services.xsslabs.tech/xrpl-evm/",
     "validatorlogo": "xss.jpeg",
     "explorer": "https://explorer.xsslabs.tech/XRPL-EVM",
