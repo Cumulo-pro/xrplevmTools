@@ -126,9 +126,9 @@
     "snapshot": "https://cumulo.pro/services/xrplevm/",
     "websocket": "",
     "addrbook": "",
-    "tools": "XRPL EVM Node Monitoring",
+    "tools": "RPC Scan",
       "tools_url": {
-      "state-sync": "https://cumulo.pro/services/xrplevm/"
+      "RPC Scan": "https://cumulo.pro/services/xrplevm/rpcscan"
     },
     "content":{
       "Node Guide": "https://cumulo.pro/services/xrplevm/"
@@ -237,7 +237,7 @@
   "evm": "https://xrplevm-testnet-evm.itrocket.net",
   "snapshot": "https://itrocket.net/services/testnet/xrplevm/",
   "addrbook": "https://server-2.itrocket.net/testnet/xrplevm/addrbook.json",
-  "tools": "Decentralization Analytics, Governance Bot, Peer scanner, RPC Scanner, DA Nodes Monitoring",
+  "tools": "Validator Analytics, Consensus Analytics, Peer scanner",
  "tools_url": {
   "Validator Analytics": "https://itrocket.net/services/testnet/xrplevm/analytics/validators-performance/?view=uptime&mode=full&range=allTime%20-",
   "Consensus Analytics": "https://itrocket.net/services/testnet/xrplevm/analytics/consensus/",
