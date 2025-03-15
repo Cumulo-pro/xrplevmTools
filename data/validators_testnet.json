@@ -265,20 +265,6 @@
   "evm": "https://json-rpc.testnet.xrplevm.p10node.com",
   "snapshot": ""
     },
-     {
-  "name": "XSS",
-  "webservices": "https://services.xsslabs.tech/xrpl-evm/installation",
-  "x": "",
-  "validatorlogo": "xss.jpeg",
-  "peers": "",
-  "seeds": "",
-  "api": "https://api-xrpl.xsslabs.tech",
-  "rpc": "https://rpc-xrpl.xsslabs.tech",
-  "grpc": "",
-  "explorer": "https://explorer.xsslabs.tech/XRPL-EVM",
-  "evm": "",
-  "snapshot": ""
-    },
   {
   "name": "Đông QN",
   "webservices": "",
