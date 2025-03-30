@@ -190,5 +190,13 @@
     "x": "stakeme_pro",
     "validatorlogo": "stakeme.jpg",
     "explorer": "https://xrpl.exploreme.pro/"
-     }     
+ },
+    {
+    "name": "Cosmostation",
+    "webservices": "",
+    "x": "CosmostationVD",
+    "validatorlogo": "cosmotation.jpg",
+    "explorer": "",
+     "snapshot": "https://snapshot.cosmostation.io/xrpl-evm/"
+  }
 ]
