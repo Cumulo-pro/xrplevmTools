@@ -349,7 +349,7 @@
     "name": "Cosmostation",
     "webservices": "",
     "x": "CosmostationVD",
-    "validatorlogo": "cosmotation.jpg",
+    "validatorlogo": "cosmostation.png",
     "explorer": "",
      "snapshot": "https://snapshot.cosmostation.io/xrpl-evm/"
   },
