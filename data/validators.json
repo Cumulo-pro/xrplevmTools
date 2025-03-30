@@ -263,5 +263,5 @@
     "api": "https://xrpl-testnet-api.kgnodes.xyz",
     "grpc": "https:/xrpl-testnet-grpc.kgnodes.xyz",
     "evm": "https://xrpl-testnet-jsonrpc.kgnodes.xyz"
-},
+}
 ]
