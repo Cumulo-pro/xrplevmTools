@@ -199,7 +199,7 @@
     "explorer": "",
      "snapshot": "https://snapshot.cosmostation.io/xrpl-evm/"
   },
-    {
+  {
     "name": "HibuNode",
     "webservices": "",
     "x": "brkkcinar",
@@ -208,5 +208,16 @@
     "api": "https://xrpl-testnet-api.hibunode.com/",
     "rpc": "https://xrpl-testnet-rpc.hibunode.com/"
     "grpc": ""
-    }
+    },
+ {
+    "name": "Monkey Labs",
+    "webservices": "https://monkeylabs.gitbook.io/services",
+    "x": "",
+    "validatorlogo": "monkeylabs.jpg",
+    "explorer": "",
+    "api": "https://xrp-testnet-api.monkeylabs.me/",
+    "rpc": "https://xrp-testnet-rpc.monkeylabs.me/"
+    "grpc": "https://xrp-testnet-grpc.monkeylabs.me/",
+    "evm": "https://xrp-testnet-evm.monkeylabs.me/"
+ }
 ]
