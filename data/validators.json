@@ -206,7 +206,7 @@
     "validatorlogo": "hibunode.png",
     "explorer": "https://explorer.hibunode.com/xrplevm",
     "api": "https://xrpl-testnet-api.hibunode.com/",
-    "rpc": "https://xrpl-testnet-rpc.hibunode.com/"
+    "rpc": "https://xrpl-testnet-rpc.hibunode.com/",
     "grpc": ""
     },
  {
@@ -216,7 +216,7 @@
     "validatorlogo": "monkeylabs.jpg",
     "explorer": "https://explorer.monkeylabs.me/Xrpl-Testnet/staking",
     "api": "https://xrp-testnet-api.monkeylabs.me/",
-    "rpc": "https://xrp-testnet-rpc.monkeylabs.me/"
+    "rpc": "https://xrp-testnet-rpc.monkeylabs.me/",
     "grpc": "https://xrp-testnet-grpc.monkeylabs.me/",
     "evm": "https://xrp-testnet-evm.monkeylabs.me/"
  },
@@ -227,7 +227,7 @@
     "validatorlogo": "bonynode.jpg",
     "explorer": "https://explorer.bonynode.online/xrplevm",
     "api": "https://xrpl-testnet-api.bonynode.online/",
-    "rpc": "https://xrpl-testnet-rpc.bonynode.online/"
+    "rpc": "https://xrpl-testnet-rpc.bonynode.online/",
     "grpc": "https://xrpl-testnet-grpc.bonynode.online/",
     "evm": "https://xrpl-testnet-evm.bonynode.online/"
  },
@@ -238,8 +238,18 @@
     "validatorlogo": "hazennetworksolutions.jpg",
     "explorer": "https://explorer.hazennetworksolutions.com/xrplevm-testnet",
     "api": "https://xrpl-testnet-api.hazennetworksolutions.com/",
-    "rpc": "https://xrpl-testnet-rpc.hazennetworksolutions.com/"
+    "rpc": "https://xrpl-testnet-rpc.hazennetworksolutions.com/",
     "grpc": "https://xrpl-testnet-grpc.hazennetworksolutions.com/",
     "evm": "https://xrpl-testnet-jsonrpc.hazennetworksolutions.com/"
+ },
+    {
+  "name": "Brightlystake",
+  "webservices": "",
+  "x": "brightlystake",
+  "validatorlogo": "brightlystake.jpg",
+  "rpc": "https://xrpl-t-evm.brightlystake.com/",
+  "api": "https://xrpl-t-evm.brightlystake.com/api",
+  "grpc": "xrpl-t-evm.brightlystake.com:9090",
+  "evm": "https://xrpl-t-evm.brightlystake.com/evm"
  }
 ]
