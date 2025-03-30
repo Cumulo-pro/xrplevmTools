@@ -230,5 +230,16 @@
     "rpc": "https://xrpl-testnet-rpc.bonynode.online/"
     "grpc": "https://xrpl-testnet-grpc.bonynode.online/",
     "evm": "https://xrpl-testnet-evm.bonynode.online/"
+ },
+ {
+    "name": "Hazen Network Solutions",
+    "webservices": "",
+    "x": "haznftofficial",
+    "validatorlogo": "hazennetworksolutions.jpg",
+    "explorer": "https://explorer.hazennetworksolutions.com/xrplevm-testnet",
+    "api": "https://xrpl-testnet-api.hazennetworksolutions.com/",
+    "rpc": "https://xrpl-testnet-rpc.hazennetworksolutions.com/"
+    "grpc": "https://xrpl-testnet-grpc.hazennetworksolutions.com/",
+    "evm": "https://xrpl-testnet-jsonrpc.hazennetworksolutions.com/"
  }
 ]
