@@ -173,7 +173,7 @@
     "x": "lesnik13utsa",
     "validatorlogo": "𝐥𝐞𝐬𝐧𝐢𝐤.jpg",
     "explorer": "https://exp.utsa.tech/xrpl-devnet/staking",
-    "api": " https://d-xrpl.api.utsa.tech",
+    "api": "https://d-xrpl.api.utsa.tech",
     "rpc": "https://d-xrpl.rpc.utsa.tech",
     "grpc": "d-xrpl.grpc.utsa.tech:433",
     "evm": "https://d-xrpl.evm.utsa.tech",
@@ -198,5 +198,15 @@
     "validatorlogo": "cosmotation.jpg",
     "explorer": "",
      "snapshot": "https://snapshot.cosmostation.io/xrpl-evm/"
-  }
+  },
+    {
+    "name": "HibuNode",
+    "webservices": "",
+    "x": "brkkcinar",
+    "validatorlogo": "hibunode.png",
+    "explorer": "https://explorer.hibunode.com/xrplevm",
+    "api": "https://xrpl-testnet-api.hibunode.com/",
+    "rpc": "https://xrpl-testnet-rpc.hibunode.com/"
+    "grpc": ""
+    }
 ]
