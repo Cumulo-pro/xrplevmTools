@@ -251,5 +251,17 @@
   "api": "https://xrpl-t-evm.brightlystake.com/api",
   "grpc": "xrpl-t-evm.brightlystake.com:9090",
   "evm": "https://xrpl-t-evm.brightlystake.com/evm"
- }
+ },
+     {
+    "name": "kgnodes Services",
+    "x": "kgnodes",
+    "validatorlogo": "kgnodes.jpg",
+    "webservices": "",
+    "explorer": "https://explorer.kgnodes.xyz/Xrpl-Testnet",
+    "snapshot": "https://snapshot.kgnodes.xyz/snapshot/Xrpl/snap_exrpd.tar.lz4",
+    "rpc": "https://xrpl-testnet-rpc.kgnodes.xyz",
+    "api": "https://xrpl-testnet-api.kgnodes.xyz",
+    "grpc": "https:/xrpl-testnet-grpc.kgnodes.xyz",
+    "evm": "https://xrpl-testnet-jsonrpc.kgnodes.xyz"
+},
 ]
