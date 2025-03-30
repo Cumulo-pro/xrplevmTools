@@ -214,7 +214,7 @@
     "webservices": "https://monkeylabs.gitbook.io/services",
     "x": "",
     "validatorlogo": "monkeylabs.jpg",
-    "explorer": "",
+    "explorer": "https://explorer.monkeylabs.me/Xrpl-Testnet/staking",
     "api": "https://xrp-testnet-api.monkeylabs.me/",
     "rpc": "https://xrp-testnet-rpc.monkeylabs.me/"
     "grpc": "https://xrp-testnet-grpc.monkeylabs.me/",
