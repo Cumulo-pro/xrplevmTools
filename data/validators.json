@@ -219,5 +219,16 @@
     "rpc": "https://xrp-testnet-rpc.monkeylabs.me/"
     "grpc": "https://xrp-testnet-grpc.monkeylabs.me/",
     "evm": "https://xrp-testnet-evm.monkeylabs.me/"
+ },
+ {
+    "name": "BonyNode",
+    "webservices": "https://bonynode.online/services/testnet/xrpl/",
+    "x": "BonyNode",
+    "validatorlogo": "bonynode.jpg",
+    "explorer": "https://explorer.bonynode.online/xrplevm",
+    "api": "https://xrpl-testnet-api.bonynode.online/",
+    "rpc": "https://xrpl-testnet-rpc.bonynode.online/"
+    "grpc": "https://xrpl-testnet-grpc.bonynode.online/",
+    "evm": "https://xrpl-testnet-evm.bonynode.online/"
  }
 ]
