@@ -344,5 +344,78 @@
     "content":{
       "Node Guide": "https://services.xsslabs.tech/xrpl-evm/installation"
      }
+},
+      {
+    "name": "Cosmostation",
+    "webservices": "",
+    "x": "CosmostationVD",
+    "validatorlogo": "cosmotation.jpg",
+    "explorer": "",
+     "snapshot": "https://snapshot.cosmostation.io/xrpl-evm/"
+  },
+  {
+    "name": "HibuNode",
+    "webservices": "",
+    "x": "brkkcinar",
+    "validatorlogo": "hibunode.png",
+    "explorer": "https://explorer.hibunode.com/xrplevm",
+    "api": "https://xrpl-testnet-api.hibunode.com/",
+    "rpc": "https://xrpl-testnet-rpc.hibunode.com/",
+    "grpc": ""
+    },
+ {
+    "name": "Monkey Labs",
+    "webservices": "https://monkeylabs.gitbook.io/services",
+    "x": "",
+    "validatorlogo": "monkeylabs.jpg",
+    "explorer": "https://explorer.monkeylabs.me/Xrpl-Testnet/staking",
+    "api": "https://xrp-testnet-api.monkeylabs.me/",
+    "rpc": "https://xrp-testnet-rpc.monkeylabs.me/",
+    "grpc": "https://xrp-testnet-grpc.monkeylabs.me/",
+    "evm": "https://xrp-testnet-evm.monkeylabs.me/"
+ },
+ {
+    "name": "BonyNode",
+    "webservices": "https://bonynode.online/services/testnet/xrpl/",
+    "x": "BonyNode",
+    "validatorlogo": "bonynode.jpg",
+    "explorer": "https://explorer.bonynode.online/xrplevm",
+    "api": "https://xrpl-testnet-api.bonynode.online/",
+    "rpc": "https://xrpl-testnet-rpc.bonynode.online/",
+    "grpc": "https://xrpl-testnet-grpc.bonynode.online/",
+    "evm": "https://xrpl-testnet-evm.bonynode.online/"
+ },
+ {
+    "name": "Hazen Network Solutions",
+    "webservices": "",
+    "x": "haznftofficial",
+    "validatorlogo": "hazennetworksolutions.jpg",
+    "explorer": "https://explorer.hazennetworksolutions.com/xrplevm-testnet",
+    "api": "https://xrpl-testnet-api.hazennetworksolutions.com/",
+    "rpc": "https://xrpl-testnet-rpc.hazennetworksolutions.com/",
+    "grpc": "https://xrpl-testnet-grpc.hazennetworksolutions.com/",
+    "evm": "https://xrpl-testnet-jsonrpc.hazennetworksolutions.com/"
+ },
+    {
+  "name": "Brightlystake",
+  "webservices": "",
+  "x": "brightlystake",
+  "validatorlogo": "brightlystake.jpg",
+  "rpc": "https://xrpl-t-evm.brightlystake.com/",
+  "api": "https://xrpl-t-evm.brightlystake.com/api",
+  "grpc": "xrpl-t-evm.brightlystake.com:9090",
+  "evm": "https://xrpl-t-evm.brightlystake.com/evm"
+ },
+     {
+    "name": "kgnodes Services",
+    "x": "kgnodes",
+    "validatorlogo": "kgnodes.jpg",
+    "webservices": "",
+    "explorer": "https://explorer.kgnodes.xyz/Xrpl-Testnet",
+    "snapshot": "https://snapshot.kgnodes.xyz/snapshot/Xrpl/snap_exrpd.tar.lz4",
+    "rpc": "https://xrpl-testnet-rpc.kgnodes.xyz",
+    "api": "https://xrpl-testnet-api.kgnodes.xyz",
+    "grpc": "https:/xrpl-testnet-grpc.kgnodes.xyz",
+    "evm": "https://xrpl-testnet-jsonrpc.kgnodes.xyz"
 }
 ]
