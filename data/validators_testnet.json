@@ -123,6 +123,7 @@
     "api": "https://api.xrpl.cumulo.com.es",
     "rpc": "https://rpc.xrpl.cumulo.com.es",
     "grpc": "grpc.xrpl.cumulo.com.es",
+    "evm": "https://json-rpc.xrpl.cumulo.com.es",
     "snapshot": "https://cumulo.pro/services/xrplevm/",
     "websocket": "",
     "addrbook": "",
