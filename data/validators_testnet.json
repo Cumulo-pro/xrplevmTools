@@ -433,5 +433,19 @@
     "content":{
       "Node Guide": "https://services.dongqn.com/xrpl-evm-testnet"
      }
-  }
+  },
+    {
+    "name": "NodeStake",
+    "webservices": "https://nodestake.org/xrp",
+    "x": "NodeStake_top",
+    "validatorlogo": "nodestake.jpg",
+    "explorer": "https://explorer.nodestake.org/xrp-testnet",
+    "peers": "b01a918af85f90d38dda24238500fc5573f9145a@207.180.222.90:26656,f11f784d2b4ca60532212f0fd1d0e21121a1a433@195.154.91.66:26656,d008913f3f8910a9f88e2aa5e72f0254fd4ebc94@91.237.141.159:26656,c451a651b8d513b3e2cd8724537a80481c8cfdfd@152.53.51.57:13656,f8452f28064e9cf9ef1df0c055ac0280576143b6@65.108.69.56:26696,2d14b84e5e2f1784b8e942216a330df05cecd137@152.53.49.146:13656,1e944f00162810f0d20eb70a6573defbff80e18c@65.108.250.237:26656,6c5b34685a0c1956bde097914e42bc537f5ca5c7@79.137.70.143:26646,27b3087d4e0889d16d50cfc2a2d9542ad0704e9d@44.210.230.67:26656,24b71f58417414fa1bd21c788a0a85a98f49e7f9@162.55.181.91:26656,a601123b671af68731b9137dac59ab3ca5f1ce29@195.3.223.78:22656,6f55c4f2fe49bc87249428ed3f00278954bc72e2@65.109.59.22:30056,b3a3866beeaf5efb9790fd736534eeea77b4b6be@51.44.211.135:26656,2d4816efaadd5687389f295aad49f6e52c0e3c98@178.162.165.151:26656",
+    "seeds": "327fb4151de9f78f29ff10714085e347a4e3c836@rpc-t.xrp.nodestake.org:666",
+    "api": "https://api-t.archive.xrp.nodestake.org",
+    "rpc": "https://rpc-t.archive.xrp.nodestake.org",
+    "grpc": "grpc-t.archive.xrp.nodestake.org:443",
+    "snapshot": "https://nodestake.org/xrp",
+    "evm": "https://evmrpc-t.archive.xrp.nodestake.org"
+    }
 ]
