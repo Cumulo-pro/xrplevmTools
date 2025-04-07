@@ -418,5 +418,20 @@
     "api": "https://xrpl-testnet-api.kgnodes.xyz",
     "grpc": "https:/xrpl-testnet-grpc.kgnodes.xyz",
     "evm": "https://xrpl-testnet-jsonrpc.kgnodes.xyz"
-}
+},
+     {
+    "name": "Đông QN",
+    "x": "dongqn69",
+    "validatorlogo": "dongqn69.jpg",
+    "webservices": "https://services.dongqn.com/xrpl-evm-testnet",
+    "explorer": "https://explorer.dongqn.com/XRPL-Testnet",
+    "snapshot": "",
+    "rpc": "https://rpc.testnet.xrplevm.dongqn.com",
+    "api": "https://api.testnet.xrplevm.dongqn.com",
+    "grpc": "grpc.testnet.xrplevm.dongqn.com",
+    "evm": "https://evm.testnet.xrplevm.dongqn.com",
+    "content":{
+      "Node Guide": "https://services.dongqn.com/xrpl-evm-testnet"
+     }
+  }
 ]
