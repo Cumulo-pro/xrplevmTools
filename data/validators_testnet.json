@@ -447,5 +447,17 @@
     "grpc": "grpc-t.archive.xrp.nodestake.org:443",
     "snapshot": "https://nodestake.org/xrp",
     "evm": "https://evmrpc-t.archive.xrp.nodestake.org"
+    },
+    {
+    "name": "OwlStake",
+    "webservices": "",
+    "x": "owlstake",
+    "validatorlogo": "owlstake.jpg",
+    "explorer": "https://explorer.owlstake.com/test-xrplevm ",
+    "api": "https://xrplevm_1449000-1-api.owlstake.com/",
+    "rpc": "https://xrplevm_1449000-1-rpc.owlstake.com/",
+    "grpc": "",
+    "snapshot": "",
+    "evm": ""
     }
 ]
