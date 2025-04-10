@@ -459,5 +459,17 @@
     "grpc": "",
     "snapshot": "",
     "evm": ""
+    },
+    {
+    "name": "Vitwit",
+    "webservices": "https://snap.xrp.vitwit.com/",
+    "x": "vitwit_",
+    "validatorlogo": "vitwit.jpg",
+    "explorer": " ",
+    "api": "https://rest.xrp.vitwit.com",
+    "rpc": "https://rpc.xrp.vitwit.com",
+    "grpc": "",
+    "snapshot": "https://snap.xrp.vitwit.com/",
+    "evm": ""
     }
 ]
