@@ -110,16 +110,3 @@ sudo systemctl restart xrpl-benchmark
 
 ---
 
-### 🧠 Efficiency Score Formula (Grafana)
-A compound Grafana expression to evaluate chain efficiency:
-```text
-tx_success_rate * gas_efficiency_ratio * (1 / avg_latency_s)
-```
-Resulting in a normalized score between 0 and 1.
-
----
-
-### 🚀 Powered by Cumulo Infra + OVH R2
-
-> Contributions, suggestions or benchmarking ideas welcome!
-
