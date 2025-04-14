@@ -1,6 +1,7 @@
 # XRPL EVM Benchmarking Tool by Cumulo
 
 📡 Live Metrics Endpoint: [http://51.79.78.121:9200/metrics](http://51.79.78.121:9200/metrics)
+🔗 Grafana [Snapshot](https://snapshots.raintank.io/dashboard/snapshot/8IGNlPIAeHnqN1EVIHrL8gaRjvXAJ7Jg?orgId=0&refresh=5s&from=now-24h&to=now) dashboard
 
 ## 🧠 Project Objective
 
