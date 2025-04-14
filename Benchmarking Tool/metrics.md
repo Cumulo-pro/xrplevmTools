@@ -1,4 +1,4 @@
-## XRPL EVM Prometheus Metrics
+## XRPL EVM Benchmarking Metrics
 
 ### 🟢 Benchmark Metrics
 
