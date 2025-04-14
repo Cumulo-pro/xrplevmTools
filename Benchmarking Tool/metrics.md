@@ -13,6 +13,41 @@
 | `xrpl_tx_status_total{status="success"}` | `counter` | Count of transactions grouped by status |
 | `xrpl_tx_latency_histogram_ms` | `histogram` | Distribution of transaction confirmation latency in ms |
 
+## ⏱ xrpl_tx_latency_histogram_ms
+
+**Metric Type:** `histogram`  
+**Description:** Distribution of transaction inclusion latency in milliseconds.  
+This metric measures the time from when a transaction is sent (`sendTransaction`) until it is confirmed on-chain (`tx.wait()`).
+
+---
+
+### 📊 Buckets
+
+Each histogram bucket shows the cumulative count of transactions that were confirmed in **less than or equal to** the specified time (in milliseconds):
+
+| Latency ≤ (ms) | Description |
+|----------------|-------------|
+| 1000           | Ultra-fast inclusion |
+| 2000           | Very fast |
+| 4000           | Reasonably fast |
+| 8000           | Acceptable performance |
+| 12000          | Slight delay |
+| 16000          | Noticeable delay |
+| 20000          | Slow inclusion |
+| +Inf           | Catch-all |
+
+Example snapshot:
+
+```txt
+xrpl_tx_latency_histogram_ms_bucket{le="1000"} 0
+xrpl_tx_latency_histogram_ms_bucket{le="4000"} 9
+xrpl_tx_latency_histogram_ms_bucket{le="8000"} 158
+xrpl_tx_latency_histogram_ms_bucket{le="12000"} 2269
+xrpl_tx_latency_histogram_ms_bucket{le="16000"} 2390
+xrpl_tx_latency_histogram_ms_bucket{le="+Inf"} 2390
+xrpl_tx_latency_histogram_ms_sum 20212755
+xrpl_tx_latency_histogram_ms_count 2390
+
 ---
 
 ### 📟 Extended Benchmark Metrics
