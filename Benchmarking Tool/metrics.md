@@ -36,17 +36,6 @@ Each histogram bucket shows the cumulative count of transactions that were confi
 | 20000          | Slow inclusion |
 | +Inf           | Catch-all |
 
-Example snapshot:
-
-```txt
-xrpl_tx_latency_histogram_ms_bucket{le="1000"} 0
-xrpl_tx_latency_histogram_ms_bucket{le="4000"} 9
-xrpl_tx_latency_histogram_ms_bucket{le="8000"} 158
-xrpl_tx_latency_histogram_ms_bucket{le="12000"} 2269
-xrpl_tx_latency_histogram_ms_bucket{le="16000"} 2390
-xrpl_tx_latency_histogram_ms_bucket{le="+Inf"} 2390
-xrpl_tx_latency_histogram_ms_sum 20212755
-xrpl_tx_latency_histogram_ms_count 2390
 
 ---
 
