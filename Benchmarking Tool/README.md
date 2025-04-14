@@ -82,12 +82,12 @@ Description=XRPL EVM Benchmark Exporter
 After=network.target
 
 [Service]
-ExecStart=/home/noditoovh/.nvm/versions/node/v18.20.8/bin/node /home/noditoovh/xrpl-benchmark/exporter.js
-ExecStart=/home/noditoovh/.nvm/versions/node/v18.20.8/bin/node /home/noditoovh/xrpl-benchmark/scripts/sequential_rpc_benchmark.js
-WorkingDirectory=/home/noditoovh/xrpl-benchmark/
+ExecStart=/home/user/.nvm/versions/node/v18.20.8/bin/node /home/noditoovh/xrpl-benchmark/exporter.js
+ExecStart=/home/user/.nvm/versions/node/v18.20.8/bin/node /home/noditoovh/xrpl-benchmark/scripts/sequential_rpc_benchmark.js
+WorkingDirectory=/home/user/xrpl-benchmark/
 Restart=always
 Environment=NODE_ENV=production
-EnvironmentFile=/home/noditoovh/xrpl-benchmark/.env
+EnvironmentFile=/home/user/xrpl-benchmark/.env
 
 [Install]
 WantedBy=multi-user.target
