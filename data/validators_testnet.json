@@ -308,7 +308,8 @@
     "addrbook": "https://server-1.stavr.tech/Testnet/Xrpl/addrbook.json",
     "tools_url": {
         "StateSync": "https://stavr-team.gitbook.io/nodes-guides/testnets/xrpl/sync",
-        "Sync Checker": "https://stavr-team.gitbook.io/nodes-guides/testnets/xrpl/sync-checker"
+        "Sync Checker": "https://stavr-team.gitbook.io/nodes-guides/testnets/xrpl/sync-checker",
+        "Xrpl Map": "https://tools.stavr.tech/Map/xrplt/"
     },
     "content":{
     "Node Guide": "https://stavr-team.gitbook.io/nodes-guides/testnets/xrpl/node-installation"
