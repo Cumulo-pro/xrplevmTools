@@ -471,5 +471,18 @@
     "grpc": "",
     "snapshot": "https://snap.xrp.vitwit.com/",
     "evm": ""
+    },
+    {
+    "name": "Endorphine Stake",
+    "webservices": "https://services.endorphinestake.com/testnets/XRPL",
+    "x": "endorphinestake",
+    "validatorlogo": "endorphinestake.jpg",
+    "explorer": "",
+    "api": "https://xrpl-api.endorphinestake.com",
+    "rpc": "https://xrpl-rpc.endorphinestake.com",
+    "grpc": "xrpl-grpc.endorphinestake.com:9390",
+    "snapshot": "https://services.endorphinestake.com/testnets/XRPL",
+    "snapshot_archival": "https://services.endorphinestake.com/testnets/XRPL",
+    "evm": "https://xrpl-evm.endorphinestake.com"
     }
 ]
