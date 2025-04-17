@@ -100,7 +100,8 @@
     "rpc": "https://rpc-t.xrp.nodestake.org",
     "grpc": "https://grpc-t.xrp.nodestake.org:443",
     "evm": "https://evmrpc-t.xrp.nodestake.org/",
-    "addrbook": "https://ss-t.xrp.nodestake.org/addrbook.json"
+    "addrbook": "https://ss-t.xrp.nodestake.org/addrbook.json",
+    "snapshot": "https://nodestake.org/xrp"
 },
 {
     "name": "blockitize",
@@ -447,6 +448,7 @@
     "rpc": "https://rpc-t.archive.xrp.nodestake.org",
     "grpc": "grpc-t.archive.xrp.nodestake.org:443",
     "snapshot": "https://nodestake.org/xrp",
+    "snapshot_archival": "https://nodestake.org/xrp",
     "evm": "https://evmrpc-t.archive.xrp.nodestake.org"
     },
     {
