@@ -238,6 +238,7 @@
   "websocket": "wss://celestia-mainnet-ws.itrocket.net:443/websocket",
   "evm": "https://xrplevm-testnet-evm.itrocket.net",
   "snapshot": "https://itrocket.net/services/testnet/xrplevm/",
+  "snapshot_archival": "https://itrocket.net/services/testnet/xrplevm/",
   "addrbook": "https://server-2.itrocket.net/testnet/xrplevm/addrbook.json",
   "tools": "Validator Analytics, Consensus Analytics, Peer scanner",
  "tools_url": {
