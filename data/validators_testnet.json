@@ -483,6 +483,9 @@
     "grpc": "xrpl-grpc.endorphinestake.com:9390",
     "snapshot": "https://services.endorphinestake.com/testnets/XRPL",
     "snapshot_archival": "https://services.endorphinestake.com/testnets/XRPL",
-    "evm": "https://xrpl-evm.endorphinestake.com"
+    "evm": "https://xrpl-evm.endorphinestake.com",
+     "tools_url": {
+        "Monitoring tool with IP telephony integration": "https://xrpl-testnet.buzznodes.com/"
+        }
     }
 ]
