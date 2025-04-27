@@ -490,5 +490,20 @@
      "tools_url": {
         "Monitoring tool with IP telephony integration": "https://xrpl-testnet.buzznodes.com/"
         }
+    },
+    {
+    "name": "Nodevism",
+    "webservices": "https://docs.nodevism.com/testnet/xrvl-evm",
+    "x": "",
+    "validatorlogo": "nodevism.jpg",
+    "api": "https://api-xrpl.testnet.nodevism.com/",
+    "rpc": "https://rpc-xrpl.testnet.nodevism.com/",
+    "grpc": "",
+    "snapshot": "https://docs.nodevism.com/testnet/xrvl-evm/snapshot",
+    "evm": "",
+    "peers": "48e729c83f48e09162140f208bc62f77b255beea@195.3.223.119:31656",
+     "content":{
+      "Node Guide": "https://docs.nodevism.com/testnet/xrvl-evm/installation"
+     }
     }
 ]
