@@ -505,5 +505,17 @@
      "content":{
       "Node Guide": "https://docs.nodevism.com/testnet/xrvl-evm/installation"
      }
+    },
+    {
+    "name": "Bitszn | valopers",
+    "webservices": "",
+    "x": "bitszn_com",
+    "validatorlogo": "bitszn.png",
+    "api": "",
+    "rpc": "",
+    "grpc": "",
+    "snapshot": "",
+    "evm": "",
+    "explorer": "https://testnet.xrplevm.valopers.com/validators"
     }
 ]
