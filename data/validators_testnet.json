@@ -517,5 +517,14 @@
     "snapshot": "",
     "evm": "",
     "explorer": "https://testnet.xrplevm.valopers.com/validators"
-    }
+    },
+     {
+    "name": "Validator247.com",
+    "webservices": "",
+    "x": "Validator247",
+    "validatorlogo": "validator247.jpg",
+    "explorer": "",
+    "api": "https://xrplevm-testnet-api.validator247.com ",
+    "rpc": "https://xrplevm-testnet-rpc.validator247.com"   
+}
 ]
