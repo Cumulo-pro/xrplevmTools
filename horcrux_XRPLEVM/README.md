@@ -2,6 +2,8 @@
 
 This guide walks you through deploying **Horcrux**, a distributed signing (MPC) tool that protects your XRPL EVM validator private key by splitting it across multiple nodes. We will use a setup with **3 signer nodes (cosigners)** and **3 sentry nodes** to achieve fault tolerance and high availability.
 
+![image](https://github.com/user-attachments/assets/2e79650c-3931-4118-a66d-7a9c30520451)
+
 ## Table of Contents
 
 * [Introduction](#introduction)
@@ -42,6 +44,9 @@ Horcrux splits the validator private key into multiple shards and delegates bloc
 * **3 signer nodes** – distribute signatures via MPC
 * **3 sentry nodes** – act as a secure interface between the network and signers
 
+![image](https://github.com/user-attachments/assets/23fdd0c4-88bd-4839-981a-e865394646e4)
+
+
 Each signer connects to all sentries through the private validator port.
 
 ![Horcrux XRPL EVM Setup](link-to-diagram.png)
@@ -67,6 +72,9 @@ Each signer connects to all sentries through the private validator port.
 * Open `26656` to the public for P2P discovery
 
 > **Important:** `priv_validator_key.json` **must not exist** on sentry nodes
+
+![image](https://github.com/user-attachments/assets/e892f322-19ed-4a2f-998d-7b8f0ba633f6)
+
 
 ## 1. Horcrux Installation
 
