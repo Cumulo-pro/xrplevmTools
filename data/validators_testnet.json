@@ -526,5 +526,17 @@
     "explorer": "",
     "api": "https://xrplevm-testnet-api.validator247.com ",
     "rpc": "https://xrplevm-testnet-rpc.validator247.com"   
-}
+},
+   {
+    "name": "High Tower",
+    "webservices": "",
+    "x": "bitszn_com",
+    "validatorlogo": "hightower.jpg",
+    "api": "https://api.xrpl-t.htw.tech",
+    "rpc": "https://rpc.xrpl-t.htw.tech",
+    "grpc": "https://grpc.xrpl-t.htw.tech",
+    "snapshot": "",
+    "evm": "https://rpc-evm.xrpl-t.htw.tech",
+    "websocket": "wss://wss.xrpl-t.htw.tech"
+    }
 ]
