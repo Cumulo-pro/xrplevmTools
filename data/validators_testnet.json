@@ -538,5 +538,19 @@
     "snapshot": "",
     "evm": "https://rpc-evm.xrpl-t.htw.tech",
     "websocket": "wss://wss.xrpl-t.htw.tech"
+    },
+   {
+    "name": "Unity Nodes",
+    "webservices": "",
+    "x": "UnityNodes",
+    "validatorlogo": "unitynodes.jpg.jpg",
+    "api": "",
+    "rpc": "",
+    "grpc": "",
+    "snapshot": "",
+    "evm": "",
+    "tools_url": {
+        "Unity Faucet": "https://faucet.unitynodes.com/"
+        }
     }
 ]
