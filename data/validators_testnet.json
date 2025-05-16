@@ -543,7 +543,7 @@
     "name": "Unity Nodes",
     "webservices": "",
     "x": "UnityNodes",
-    "validatorlogo": "unitynodes.jpg.jpg",
+    "validatorlogo": "unitynodes.jpg",
     "api": "",
     "rpc": "",
     "grpc": "",
