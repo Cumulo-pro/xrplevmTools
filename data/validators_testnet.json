@@ -555,7 +555,7 @@
     },
   {
   "name": "Nodes Hub",
-  "webservices": "",
+  "webservices": "https://services.nodeshub.online/testnet/xrpl",
   "x": "NodesHub",
   "validatorlogo": "nodeshub.jpg",
   "explorer": "https://testnet.explorer.nodeshub.online/xrpl",
