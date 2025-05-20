@@ -552,5 +552,24 @@
     "tools_url": {
         "Unity Faucet": "https://faucet.unitynodes.com/"
         }
-    }
+    },
+    {
+  "name": "Nodes Hub",
+  "webservices": "",
+  "x": "NodesHub",
+  "validatorlogo": "nodeshub.jpg",
+  "explorer": "https://testnet.explorer.nodeshub.online/xrpl",
+  "archive": "y",
+  "api": "https://xrpl.test.api.nodeshub.online",
+  "rpc": "https://xrpl.test.rpc.nodeshub.online",
+  "grpc": "https://xrpl.test.grpc.nodeshub.online/",
+  "snapshot": "https://services.nodeshub.online/testnet/xrpl/snapshot",
+  "seeds": "6f6a3a908634b79b6fe7c4988efec2553f188234@xrpl.test.seed.nodeshub.online:30056",
+  "evm": "https://xrpl.test.evm.rpc.nodeshub.online/",
+  "tools_url": {
+   "State-Sync": "https://services.nodeshub.online/testnet/xrpl/state-sync"
+    },
+   "content":{
+      "Node Guide": "https://services.nodeshub.online/testnet/xrpl/installation"
+     }
 ]
