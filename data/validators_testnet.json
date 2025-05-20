@@ -506,18 +506,18 @@
       "Node Guide": "https://docs.nodevism.com/testnet/xrvl-evm/installation"
      }
     },
-    {
-    "name": "Bitszn | valopers",
-    "webservices": "",
-    "x": "bitszn_com",
-    "validatorlogo": "bitszn.png",
-    "api": "",
-    "rpc": "",
-    "grpc": "",
-    "snapshot": "",
-    "evm": "",
-    "explorer": "https://testnet.xrplevm.valopers.com/validators"
-    },
+        {
+        "name": "Bitszn | valopers",
+        "webservices": "",
+        "x": "bitszn_com",
+        "validatorlogo": "bitszn.png",
+        "api": "",
+        "rpc": "",
+        "grpc": "",
+        "snapshot": "",
+        "evm": "",
+        "explorer": "https://testnet.xrplevm.valopers.com/validators"
+        },
      {
     "name": "Validator247.com",
     "webservices": "",
@@ -572,5 +572,17 @@
    "content":{
       "Node Guide": "https://services.nodeshub.online/testnet/xrpl/installation"
      }
- }
+ },
+     {
+        "name": "Inter Blockchain Services",
+        "webservices": "",
+        "x": "IBSvalidator",
+        "validatorlogo": "ibs.png",
+        "api": "https://xrpl-evm-testnet-api.ibs.team/",
+        "rpc": "https://xrpl-evm-testnet-rpc.ibs.team/",
+        "grpc": "",
+        "snapshot": "https://testnet-snapshot.ibs.team/Xrplevm/",
+        "evm": "https://xrpl-evm-testnet-evm-rpc.ibs.team/",
+        "explorer": ""
+        }
 ]
