@@ -577,7 +577,7 @@
         "name": "Inter Blockchain Services",
         "webservices": "",
         "x": "IBSvalidator",
-        "validatorlogo": "ibs.png",
+        "validatorlogo": "ibs.jpg",
         "api": "https://xrpl-evm-testnet-api.ibs.team/",
         "rpc": "https://xrpl-evm-testnet-rpc.ibs.team/",
         "grpc": "",
