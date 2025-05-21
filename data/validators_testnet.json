@@ -584,5 +584,27 @@
         "snapshot": "https://testnet-snapshot.ibs.team/Xrplevm/",
         "evm": "https://xrpl-evm-testnet-evm-rpc.ibs.team/",
         "explorer": ""
-        }
+        },
+     {
+        "name": "Unity Nodes",
+        "webservices": "https://unitynodes.gitbook.io/unity-nodes/testnet-network/xrpl-evm",
+        "x": "UnityNodes",
+        "validatorlogo": "unitynodes.jpg",
+        "api": "https://api.unitynodes.app/xrplevm-testnet/",
+        "rpc": "https://rpc.unitynodes.app/xrplevm-testnet/",
+        "grpc": "",
+        "snapshot": "https://unitynodes.gitbook.io/unity-nodes/testnet-network/xrpl-evm/sync/snapshots",
+        "evm": "",
+        "explorer": "",
+        "addrbook": "https://unitynodes.gitbook.io/unity-nodes/testnet-network/xrpl-evm/sync/addrbook",
+          "tools_url": {
+            "Faucet": "https://faucet.unitynodes.com/",
+            "Governance bo": "https://t.me/governance_unity_bot",
+            "Validator telemetry": "https://validator-indol.vercel.app",
+            "State Sync": "https://unitynodes.gitbook.io/unity-nodes/testnet-network/xrpl-evm/sync/state-sync"
+            },
+      "content":{
+        "Node Guide": "https://unitynodes.gitbook.io/unity-nodes/testnet-network/xrpl-evm/installation"
+       }
+     }
 ]
