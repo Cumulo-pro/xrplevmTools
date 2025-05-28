@@ -155,20 +155,6 @@
     }
  },
      {
-    "name": "blockitize",
-    "webservices": "",
-    "x": "blockitize",
-    "validatorlogo": "blockitize.jpg",
-    "explorer": "",
-    "api": "https://xrplevm-testnet-api.blockitize.com/",
-    "rpc": "http://xrplevm-testnet-rpc.blockitize.com/",
-    "grpc": "http://xrplevm-testnet-grpc.blockitize.com/",
-    "evm": "https://xrplevm-testnet-jsonrpc.blockitize.com/",
-    "seeds": "",
-    "addrbook": "",
-    "snapshot": ""
- },
-     {
     "name": "DeFatRat",
     "webservices": "",
     "x": "tphat2616",
