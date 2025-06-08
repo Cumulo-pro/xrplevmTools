@@ -577,5 +577,27 @@
       "content":{
         "Node Guide": "https://unitynodes.gitbook.io/unity-nodes/testnet-network/xrpl-evm/installation"
        }
-     }
+     },
+    {
+    "name": "NODERS",
+    "webservices": "https://noders.services/testnet-networks/xrp/",
+    "x": "NODERS_TEAM",
+    "validatorlogo": "noders.jpg",
+    "explorer": "",
+    "peers": "https://noders.services/testnet-networks/xrp/seeds-and-peers",
+    "seeds": "https://noders.services/testnet-networks/xrp/seeds-and-peers",
+    "api": "https://xrp-t-api.noders.services",
+    "rpc": "https://xrp-t-rpc.noders.services",
+    "grpc": "xrp-t-grpc.noders.services:443",
+    "snapshot": "https://noders.services/testnet-networks/xrp/snapshot",
+    "addrbook": "https://noders.services/testnet-networks/xrp/seeds-and-peers#address-book",
+    "tools": "State Sync,XRP Monitoring Setup",
+    "tools_url": {
+        "State Sync": "https://noders.services/testnet-networks/xrp/statesync",
+        "XRP Monitoring Setup": "https://noders.services/testnet-networks/xrp/monitoring"
+    },
+        "content":{
+        "XRP Installation Guide": "https://noders.services/testnet-networks/xrp/install"
+       }
+  }
 ]
