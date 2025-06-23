@@ -575,7 +575,8 @@
             "State Sync": "https://unitynodes.gitbook.io/unity-nodes/testnet-network/xrpl-evm/sync/state-sync"
             },
       "content":{
-        "Node Guide": "https://unitynodes.gitbook.io/unity-nodes/testnet-network/xrpl-evm/installation"
+        "Node Guide": "https://unitynodes.gitbook.io/unity-nodes/testnet-network/xrpl-evm/installation",
+        "TMKMS setup for XRPL validator": "https://medium.com/@unitynodes/tmkms-setup-for-xrpl-validator-5f46e554e4ad"
        }
      },
     {
