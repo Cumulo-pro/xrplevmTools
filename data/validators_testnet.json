@@ -465,7 +465,7 @@
     {
     "name": "Nodevism",
     "webservices": "https://docs.nodevism.com/testnet/xrvl-evm",
-    "x": "",
+    "x": "Sir_Bell_",
     "validatorlogo": "nodevism.jpg",
     "api": "https://api-xrpl.testnet.nodevism.com/",
     "rpc": "https://rpc-xrpl.testnet.nodevism.com/",
@@ -509,20 +509,6 @@
     "snapshot": "",
     "evm": "https://rpc-evm.xrpl-t.htw.tech",
     "websocket": "wss://wss.xrpl-t.htw.tech"
-    },
-   {
-    "name": "Unity Nodes",
-    "webservices": "",
-    "x": "UnityNodes",
-    "validatorlogo": "unitynodes.jpg",
-    "api": "",
-    "rpc": "",
-    "grpc": "",
-    "snapshot": "",
-    "evm": "",
-    "tools_url": {
-        "Unity Faucet": "https://faucet.unitynodes.com/"
-        }
     },
   {
   "name": "Nodes Hub",
