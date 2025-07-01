@@ -53,7 +53,7 @@
     "rpc": "https://rpc.xrpl.cumulo.org.es",
     "grpc": "grpc.xrpl.cumulo.org.es",
     "evm": "https://json-rpc.xrpl.cumulo.org.es",
-    "snapshot": "",
+    "snapshot": "https://cumulo.pro/services/xrplevm_mainnet/snapshot",
     "websocket": "",
     "addrbook": "",
     "tools": "Endpoint Scan",
@@ -61,7 +61,7 @@
       "Endpoint Scan": "https://cumulo.pro/services/xrplevm_mainnet/rpcscan"
     },
     "content":{
-      "Node Guide": "https://cumulo.pro/services/xrplevm_mainnet/"
+      "Node Guide": "https://cumulo.pro/services/xrplevm_mainnet/install"
      },
     "peers": ""
    }
