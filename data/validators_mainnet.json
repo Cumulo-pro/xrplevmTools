@@ -1,3 +1,4 @@
+[
 {
     "name": "NodeStake",
     "webservices": "https://nodestake.org/xrp",
@@ -26,4 +27,42 @@
      "tools_url": {
         "Cosmostation Wallet": "https://x.com/IBCwallet/status/1939688527631151239"
         }
-  }
+  },
+  {
+    "name": "Endorphine Stake",
+    "webservices": "https://services.endorphinestake.com/testnets/XRPL",
+    "x": "endorphinestake",
+    "validatorlogo": "endorphinestake.jpg",
+    "explorer": "",
+    "api": "",
+    "rpc": "",
+    "grpc": "",
+    "snapshot": "",
+    "snapshot_archival": "",
+    "evm": "",
+     "tools_url": {
+        "Buzznodes": "https://xrpl.buzznodes.com/"
+        }
+    },
+  {
+    "name": "Cumulo",
+    "webservices": "https://cumulo.pro/services/xrplevm/",
+    "x": "Cumulo_pro",
+    "validatorlogo": "cumulo.jpg",
+    "api": "https://api.xrpl.cumulo.org.es",
+    "rpc": "https://rpc.xrpl.cumulo.org.es",
+    "grpc": "grpc.xrpl.cumulo.org.es",
+    "evm": "https://json-rpc.xrpl.cumulo.org.es",
+    "snapshot": "",
+    "websocket": "",
+    "addrbook": "",
+    "tools": "Endpoint Scan",
+      "tools_url": {
+      "Endpoint Scan": "https://cumulo.pro/services/xrplevm_mainnet/rpcscan"
+    },
+    "content":{
+      "Node Guide": "https://cumulo.pro/services/xrplevm_mainnet/"
+     },
+    "peers": ""
+   }
+]
