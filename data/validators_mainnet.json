@@ -30,20 +30,20 @@
   },
   {
     "name": "Endorphine Stake",
-    "webservices": "https://services.endorphinestake.com/testnets/XRPL",
+    "webservices": "https://services.endorphinestake.com/mainnets/XRPL",
     "x": "endorphinestake",
     "validatorlogo": "endorphinestake.jpg",
-    "explorer": "",
-    "api": "",
-    "rpc": "",
-    "grpc": "",
+    "explorer": "https://xrpl.buzznodes.com",
+    "api": "https://xrpl-api.endorphinestake.com",
+    "rpc": "https://xrpl-rpc.endorphinestake.com",
+    "grpc": "xrpl-grpc.endorphinestake.com:9090",
     "snapshot": "",
     "snapshot_archival": "",
-    "evm": "",
-     "tools_url": {
-        "Buzznodes": "https://xrpl.buzznodes.com/"
-        }
-    },
+    "evm": "https://xrpl-evm.endorphinestake.com",
+    "tools_url": {
+    "Monitoring tool with IP telephony integration": "https://xrpl.buzznodes.com/"
+    }
+        },
   {
     "name": "Cumulo",
     "webservices": "https://cumulo.pro/services/xrplevm/",
