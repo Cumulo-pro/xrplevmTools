@@ -452,12 +452,12 @@
     "x": "endorphinestake",
     "validatorlogo": "endorphinestake.jpg",
     "explorer": "",
-    "api": "https://xrpl-api.endorphinestake.com",
-    "rpc": "https://xrpl-rpc.endorphinestake.com",
-    "grpc": "xrpl-grpc.endorphinestake.com:9390",
+    "api": "https://xrpl-testnet-api.endorphinestake.com",
+    "rpc": "https://xrpl-testnet-rpc.endorphinestake.com",
+    "grpc": "xrpl-testnet-grpc.endorphinestake.com:9390",
     "snapshot": "https://services.endorphinestake.com/testnets/XRPL",
     "snapshot_archival": "https://services.endorphinestake.com/testnets/XRPL",
-    "evm": "https://xrpl-evm.endorphinestake.com",
+    "evm": "https://xrpl-testnet-evm.endorphinestake.com",
      "tools_url": {
         "Monitoring tool with IP telephony integration": "https://xrpl-testnet.buzznodes.com/"
         }
