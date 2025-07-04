@@ -55,7 +55,7 @@
     "evm": "https://json-rpc.xrpl.cumulo.org.es",
     "snapshot": "https://cumulo.pro/services/xrplevm_mainnet/snapshot",
     "websocket": "",
-    "addrbook": "",
+    "snap_url": "",
     "tools": "Endpoint Scan",
       "tools_url": {
       "Endpoint Scan": "https://cumulo.pro/services/xrplevm_mainnet/rpcscan"
@@ -64,5 +64,26 @@
       "Node Guide": "https://cumulo.pro/services/xrplevm_mainnet/install"
      },
     "peers": ""
-   }
+   },
+     {
+    "name": "STAKEME",
+    "webservices": "",
+    "x": "stakeme_pro",
+    "validatorlogo": "stakeme.jpg",
+    "explorer": "https://xrpl.exploreme.pro/",
+    "content":{
+          "Node Guide": "https://xrpl.exploreme.pro/labs?page=installation"
+     },
+    "api": "https://xrpl-rest.stakeme.pro:443",
+    "rpc": "https://xrpl-rpc.stakeme.pro:443",
+    "grpc": "",
+    "evm": "https://xrpl-evm-rpc.stakeme.pro:443",
+    "peers": "ed78019cdba5ed733017908282eb83ce29417da8@xrpl-peer.stakeme.pro:45656",
+     "seeds": "ed78019cdba5ed733017908282eb83ce29417da8@xrpl-seed.stakeme.pro:45656",
+    "tools_url": {
+        "State Sync": "https://xrpl.exploreme.pro/labs?page=api-sync"
+     },
+    "snapshot": "https://xrpl.exploreme.pro/labs?page=snapshots",
+    "snap_url": "https://st-snap-1.stakeme.pro/xrpl/mainnet/pruned/cosmos_data_xrpl_mainnet_20250704_020001.tar.lz4"
+ }
 ]
