@@ -17,7 +17,7 @@
         "State Sync": "https://nodestake.org/xrp"
         }
     },
-     {
+   {
     "name": "Cosmostation",
     "webservices": "",
     "x": "CosmostationVD",
@@ -85,5 +85,14 @@
      },
     "snapshot": "https://xrpl.exploreme.pro/labs?page=snapshots",
     "snap_url": "https://st-snap-1.stakeme.pro/xrpl/mainnet/pruned/cosmos_data_xrpl_mainnet_20250704_020001.tar.lz4"
- }
+ },
+  {
+    "name": "WinNode",
+    "webservices": "",
+    "x": "WinNode",
+    "validatorlogo": "winnode.jpg",
+    "rpc": "https://rpc-xrp.winsnip.xyz",
+    "api": "https://api-xrp.winsnip.xyz", 
+    "explorer": "https://portal.winsnip.xyz/xrpl-Mainnet/"
+  }
 ]
