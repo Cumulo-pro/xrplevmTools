@@ -131,5 +131,16 @@
       "Node Guide": "https://cumulo.pro/services/xrplevm_mainnet/install"
      },
     "peers": ""
-   }
+   },
+    {
+    "name": "Nodevism",
+    "webservices": "",
+    "x": "Sir_Bell_",
+    "validatorlogo": "nodevism.jpg",
+    "api": "https://api.xrpl.nodevism.com",
+    "rpc": "https://rpc.xrpl.nodevism.com",
+    "grpc": "",
+    "snapshot": "",
+    "evm": ""
+  }
 ]
