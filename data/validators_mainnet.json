@@ -43,29 +43,8 @@
     "tools_url": {
     "Monitoring tool with IP telephony integration": "https://xrpl.buzznodes.com/"
     }
-        },
-  {
-    "name": "Cumulo",
-    "webservices": "https://cumulo.pro/services/xrplevm/",
-    "x": "Cumulo_pro",
-    "validatorlogo": "cumulo.jpg",
-    "api": "https://api.xrpl.cumulo.org.es",
-    "rpc": "https://rpc.xrpl.cumulo.org.es",
-    "grpc": "grpc.xrpl.cumulo.org.es",
-    "evm": "https://json-rpc.xrpl.cumulo.org.es",
-    "snapshot": "https://cumulo.pro/services/xrplevm_mainnet/snapshot",
-    "websocket": "",
-    "snap_url": "",
-    "tools": "Endpoint Scan",
-      "tools_url": {
-      "Endpoint Scan": "https://cumulo.pro/services/xrplevm_mainnet/rpcscan"
     },
-    "content":{
-      "Node Guide": "https://cumulo.pro/services/xrplevm_mainnet/install"
-     },
-    "peers": ""
-   },
-     {
+   {
     "name": "STAKEME",
     "webservices": "",
     "x": "stakeme_pro",
@@ -94,5 +73,46 @@
     "rpc": "https://rpc-xrp.winsnip.xyz",
     "api": "https://api-xrp.winsnip.xyz", 
     "explorer": "https://portal.winsnip.xyz/xrpl-Mainnet/"
-  }
+  },
+{
+  "name": "ITRocket",
+      "webservices": "https://itrocket.net/services/mainnet/xrplevm/",
+      "x": "itrocket_team",
+      "validatorlogo": "itrocket.png",
+      "peers": "8f8183786ac761e90998d6ab582ab5c0b1cb8133@xrplevm-mainnet-peer.itrocket.net:53656",
+      "seeds": "d0a95978d5235aafbd6d213907b71485e8e002fa@xrplevm-mainnet-seed.itrocket.net:53656",
+      "api": "https://xrplevm-mainnet-api.itrocket.net",
+      "rpc": "https://xrplevm-mainnet-rpc.itrocket.net",
+      "grpc": "xrplevm-mainnet-grpc.itrocket.net:443",
+      "websocket": "wss://xrplevm-mainnet-rpc.itrocket.net",
+      "evm": "https://xrplevm-mainnet-evm.itrocket.net",
+      "snapshot": "https://itrocket.net/services/mainnet/xrplevm/",
+      "addrbook": "https://server-2.itrocket.net/mainnet/xrplevm/addrbook.json",
+      "tools": "Validator Analytics, Consensus Analytics, Peer scanner",
+     "tools_url": {
+      "Validator Analytics": "https://itrocket.net/services/mainnet/xrplevm/analytics/validators-performance/?view=uptime&mode=full&range=allTime%20-",
+      "Consensus Analytics": "https://itrocket.net/services/mainnet/xrplevm/analytics/consensus/",
+      "Peer scanner": "https://itrocket.net/services/mainnet/xrplevm/public-rpc/"
+    },
+    {
+    "name": "Cumulo",
+    "webservices": "https://cumulo.pro/services/xrplevm/",
+    "x": "Cumulo_pro",
+    "validatorlogo": "cumulo.jpg",
+    "api": "https://api.xrpl.cumulo.org.es",
+    "rpc": "https://rpc.xrpl.cumulo.org.es",
+    "grpc": "grpc.xrpl.cumulo.org.es",
+    "evm": "https://json-rpc.xrpl.cumulo.org.es",
+    "snapshot": "https://cumulo.pro/services/xrplevm_mainnet/snapshot",
+    "websocket": "",
+    "snap_url": "",
+    "tools": "Endpoint Scan",
+      "tools_url": {
+      "Endpoint Scan": "https://cumulo.pro/services/xrplevm_mainnet/rpcscan"
+    },
+    "content":{
+      "Node Guide": "https://cumulo.pro/services/xrplevm_mainnet/install"
+     },
+    "peers": ""
+   }
 ]
