@@ -111,6 +111,39 @@
       "Node Guide": "https://luckystar-1.gitbook.io/luckystar.asia/mainnet/cosmos-eco/xrpl/node-setup"
      }
    },
+     {
+    "name": "NODERS",
+    "webservices": "https://noders.services/mainnet/xrp/",
+    "x": "NODERS_TEAM",
+    "validatorlogo": "noders.jpg",
+    "explorer": "",
+    "peers": "bde1a967bdba5fa1dd28baf5efd10e35d08f364d@xrp-rpc.noders.services:37956",
+    "seeds": "2dc8d776176a275bc64421e31d9b1ed6af228fa5@seed-0.mainnet.xrplevm.org:26656",
+    "api": "https://xrp-api.noders.services",
+    "rpc": "https://xrp-rpc.noders.services",
+    "grpc": "xrp-grpc.noders.services:443",
+    "snapshot": "https://noders.services/mainnet/xrp/snapshot",
+    "addrbook": "https://snapshots.noders.services/xrp/addrbook.json",
+    "tools": "State Sync,XRP Monitoring Setup",
+    "tools_url": {
+        "State Sync": "https://noders.services/mainnet/xrp/statesync",
+        "XRP Monitoring Setup": "https://noders.services/mainnet/xrp/monitoring"
+    },
+        "content":{
+        "XRP Installation Guide": "https://noders.services/mainnet/xrp/install"
+       }
+  },
+    {
+    "name": "Nodevism",
+    "webservices": "",
+    "x": "Sir_Bell_",
+    "validatorlogo": "nodevism.jpg",
+    "api": "https://api.xrpl.nodevism.com",
+    "rpc": "https://rpc.xrpl.nodevism.com",
+    "grpc": "",
+    "snapshot": "",
+    "evm": ""
+  },
     {
     "name": "Cumulo",
     "webservices": "https://cumulo.pro/services/xrplevm/",
@@ -131,16 +164,5 @@
       "Node Guide": "https://cumulo.pro/services/xrplevm_mainnet/install"
      },
     "peers": ""
-   },
-    {
-    "name": "Nodevism",
-    "webservices": "",
-    "x": "Sir_Bell_",
-    "validatorlogo": "nodevism.jpg",
-    "api": "https://api.xrpl.nodevism.com",
-    "rpc": "https://rpc.xrpl.nodevism.com",
-    "grpc": "",
-    "snapshot": "",
-    "evm": ""
-  }
+   }
 ]
