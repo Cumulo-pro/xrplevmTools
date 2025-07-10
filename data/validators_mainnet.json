@@ -144,6 +144,23 @@
     "snapshot": "",
     "evm": ""
   },
+   {
+    "name": "MictoNode",
+    "x": "onurnft0",
+    "validatorlogo": "mictonode.jpg",
+    "rpc": "https://xrpl-mainnet-rpc.mictonode.com",
+    "rpc_wss": "wss://xrpl-mainnet-evmrpc-wss.mictonode.co",
+    "api": "https://xrpl-mainnet-api.mictonode.com",
+    "grpc": "xrpl-mainnet-grpc.mictonode.com:47090",
+    "websocket": "wss://xrpl-mainnet-rpc.mictonode.com/websocket",
+    "evm": "https://xrpl-mainnet-evmrpc.mictonode.com",
+    "peers": "d8106774d544591c0dd5b073ac0fd2e481669cf0@xrpl-testnet-peers.mictonode.com:22056",
+    "explorer": "https://explorer.mictonode.com/Xrpl-Mainnet/staking",
+    "snapshot": "https://github.com/MictoNode/MictoNode-xrpl-mainnet-guide/blob/main/snapshot.md",
+    "content": {
+        "Basic Guide": "https://github.com/MictoNode/MictoNode-xrpl-mainnet-guide"
+    }
+},
     {
     "name": "Cumulo",
     "webservices": "https://cumulo.pro/services/xrplevm/",
