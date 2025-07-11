@@ -170,7 +170,7 @@
     "rpc": "https://rpc.xrpl.cumulo.org.es",
     "grpc": "grpc.xrpl.cumulo.org.es",
     "evm": "https://json-rpc.xrpl.cumulo.org.es",
-        "snapshot": "https://cumulo.pro/services/xrplevm_mainnet/snapshot",
+        "snapshot": "",
     "archive_snapshot": "https://cumulo.pro/services/xrplevm_mainnet/snapshot",
     "websocket": "",
     "snap_url": "",
