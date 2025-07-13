@@ -135,14 +135,15 @@
   },
     {
     "name": "Nodevism",
-    "webservices": "",
+    "webservices": "https://docs.nodevism.com/mainnet/xrpl-evm",
     "x": "Sir_Bell_",
     "validatorlogo": "nodevism.jpg",
     "api": "https://api.xrpl.nodevism.com",
     "rpc": "https://rpc.xrpl.nodevism.com",
     "grpc": "",
-    "snapshot": "",
+    "snapshot": "https://snapshot.nodevism.com/mainnet/xrpl/",
     "evm": ""
+    "peer": "8c97df390ada868ab67cd3497b11718758957eed@xrpl-evm.nodevism.com:37656"
   },
    {
     "name": "MictoNode",
