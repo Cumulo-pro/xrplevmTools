@@ -162,6 +162,23 @@
     }
 },
     {
+    "name": "POSTHUMAN",
+    "x": "POSTHUMAN_DVS",
+    "validatorlogo": "posthuman.jpg",
+    "rpc": "https://rpc.exrp.posthuman.digital",
+    "rpc_wss": "",
+    "api": "https://rest.exrp.posthuman.digital",
+    "grpc": "https://grpc.exrp.posthuman.digital",
+    "websocket": "",
+    "evm": "https://json.exrp-testnet.posthuman.digital",
+    "peers": "522e624a77123c67762b5c1ff70ac20d377b0179@135.181.227.236:61656",
+    "explorer": "",
+    "snapshot": "",
+    "content": {
+        "Installation guide": "https://nodes.posthuman.digital/chains/exrp?tab=installation-guide"
+    }
+},
+    {
     "name": "Cumulo",
     "webservices": "https://cumulo.pro/services/xrplevm/",
     "x": "Cumulo_pro",
