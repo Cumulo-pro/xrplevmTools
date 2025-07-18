@@ -173,7 +173,7 @@
     "evm": "https://json.exrp-testnet.posthuman.digital",
     "peers": "522e624a77123c67762b5c1ff70ac20d377b0179@135.181.227.236:61656",
     "explorer": "",
-    "snapshot": "",
+    "snapshot": "https://nodes.posthuman.digital/chains/exrp?tab=snapshots",
     "content": {
         "Installation guide": "https://nodes.posthuman.digital/chains/exrp?tab=installation-guide"
     }
