@@ -194,6 +194,21 @@
         "Installation Guide": "https://services.corenodehq.xyz/mainnet/xrpl-mainnet"
     }
    },
+     {
+    "name": "Winsnip",
+    "webservices": "",
+    "x": "winsnip",
+    "validatorlogo": "winsnip.jpg",
+    "explorer": "https://portal.winsnip.xyz/xrpl-Mainnet",
+    "api": "https://api-xrp.winsnip.xyz/",
+    "rpc": "https://rpc-xrp.winsnip.xyz/",
+    "evm": "",
+    "snapshot": "",
+    "websocket": "",
+    "content": {
+        "Installation Guide": ""
+    }
+   },
     {
     "name": "Cumulo",
     "webservices": "https://cumulo.pro/services/xrplevm/",
