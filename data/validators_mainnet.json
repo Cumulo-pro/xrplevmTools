@@ -142,7 +142,7 @@
     "rpc": "https://rpc.xrpl.nodevism.com",
     "grpc": "",
     "snapshot": "https://snapshot.nodevism.com/mainnet/xrpl/",
-    "evm": ""
+    "evm": "",
     "peer": "8c97df390ada868ab67cd3497b11718758957eed@xrpl-evm.nodevism.com:37656"
   },
    {
