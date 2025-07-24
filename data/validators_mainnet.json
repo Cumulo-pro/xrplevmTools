@@ -180,6 +180,21 @@
     }
 },
     {
+    "name": "CoreNode",
+    "webservices": "https://services.corenodehq.xyz/mainnet/xrpl-mainnet",
+    "x": "corenodeHQ",
+    "validatorlogo": "corenode.jpg",
+    "explorer": "https://explorer.corenodehq.xyz/xrplevm-mainnet",
+    "api": "https://xrpl-mainnet-api.corenodehq.xyz",
+    "rpc": "https://xrpl-mainnet-rpc.corenodehq.xyz",
+    "evm": "https://xrpl-mainnet-evm.corenodehq.xyz",
+    "snapshot": "",
+    "websocket": "",
+    "content": {
+        "Installation Guide": "https://services.corenodehq.xyz/mainnet/xrpl-mainnet"
+    }
+   },
+    {
     "name": "Cumulo",
     "webservices": "https://cumulo.pro/services/xrplevm/",
     "x": "Cumulo_pro",
