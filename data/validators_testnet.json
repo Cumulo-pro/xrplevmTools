@@ -464,17 +464,17 @@
     },
     {
     "name": "Nodevism",
-    "webservices": "https://docs.nodevism.com/testnet/xrvl-evm",
+    "webservices": "https://docs.nodevism.com/testnet/xrpl-evm",
     "x": "Sir_Bell_",
     "validatorlogo": "nodevism.jpg",
     "api": "https://api-xrpl.testnet.nodevism.com/",
     "rpc": "https://rpc-xrpl.testnet.nodevism.com/",
     "grpc": "",
-    "snapshot": "https://docs.nodevism.com/testnet/xrvl-evm/snapshot",
+    "snapshot": "https://docs.nodevism.com/testnet/xrpl-evm/snapshot",
     "evm": "",
     "peers": "48e729c83f48e09162140f208bc62f77b255beea@195.3.223.119:31656",
      "content":{
-      "Node Guide": "https://docs.nodevism.com/testnet/xrvl-evm/installation"
+      "Node Guide": "https://docs.nodevism.com/testnet/xrpl-evm/installation"
      }
     },
         {
