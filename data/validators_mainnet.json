@@ -210,6 +210,17 @@
     }
    },
     {
+    "name": "Hazen Network Solutions",
+    "webservices": "",
+    "x": "haznftofficial",
+    "validatorlogo": "hazennetworksolutions.jpg",
+    "explorer": "https://explorer.hazennetworksolutions.com/xrplevm-mainnet",
+    "api": "https://xrpl-mainnet-api.hazennetworksolutions.com/",
+    "rpc": "https://xrpl-mainnet-rpc.hazennetworksolutions.com/",
+    "grpc": "https://xrpl-mainnet-grpc.hazennetworksolutions.com/",
+    "evm": "https://xrpl-mainnet-jsonrpc.hazennetworksolutions.com/"
+ },
+    {
     "name": "Cumulo",
     "webservices": "https://cumulo.pro/services/xrplevm/",
     "x": "Cumulo_pro",
