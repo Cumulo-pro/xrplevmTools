@@ -221,6 +221,19 @@
     "evm": "https://xrpl-mainnet-jsonrpc.hazennetworksolutions.com/"
  },
     {
+    "name": "Imperator.co",
+    "webservices": "https://www.imperator.co/services/chain-services/mainnets/xrp",
+    "x": "imperator_co",
+    "validatorlogo": "imperator.jpg",
+    "snapshot": "https://www.imperator.co/services/chain-services/mainnets/xrp",
+    "peers": "https://s3.imperator.co/mainnets-livepeers/xrp/peers.json",
+    "api": "",
+    "websocket": "ws://rpc-xrp.imperator.co/wss/websocket",
+    "rpc": "https://rpc-xrp.imperator.co",
+    "grpc": "grpc-xrp.imperator.co:443",
+    "evm": ""
+   },
+    {
     "name": "Cumulo",
     "webservices": "https://cumulo.pro/services/xrplevm/",
     "x": "Cumulo_pro",
