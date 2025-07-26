@@ -255,6 +255,17 @@
        "Node Guide": "https://stavr-team.gitbook.io/nodes-guides/mainnets/xrpl"
      }
 },
+  {
+    "name": "Monkey Labs",
+    "webservices": "https://monkeylabs.gitbook.io/services",
+    "x": "",
+    "validatorlogo": "monkeylabs.jpg",
+    "explorer": "https://explorer.monkeylabs.me/Xrpl-Mainnet/staking",
+    "api": "https://xrp-mainnnet-api.monkeylabs.me/",
+    "rpc": "https://xrp-mainnnet-rpc.monkeylabs.me/",
+    "grpc": "https://xrp-mainnnet-grpc.monkeylabs.me/",
+    "evm": "https://xrp-mainnnet-evm.monkeylabs.me/"
+ },
     {
     "name": "Cumulo",
     "webservices": "https://cumulo.pro/services/xrplevm/",
