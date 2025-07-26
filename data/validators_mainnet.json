@@ -234,6 +234,28 @@
     "evm": ""
    },
     {
+    "name": "STAVR",
+    "webservices": "https://stavr-team.gitbook.io/nodes-guides/mainnets/xrpl/",
+    "validatorlogo": "stavr.jpg",
+    "explorer": "https://explorer.stavr.tech/Xrpl-Mainnet/staking",
+    "api": "https://xrpl.api.m.stavr.tech",
+    "rpc": "https://xrpl.rpc.m.stavr.tech",
+    "grpc": "xrpl.grpc.m.stavr.tech:118",
+    "evm": "https://xrpl.evm.m.stavr.tech",
+    "websocket": "wss://xrpl.wss.m.stavr.tech:443",
+    "snapshot": "https://stavr-team.gitbook.io/nodes-guides/mainnets/xrpl/sync",
+    "peers": "641b87e521fa3b06d5d1699f2ba8b2125f9ca57c@xrpl-m.peer.stavr.tech:3356",
+    "addrbook": "https://server-1.stavr.tech/Mainnet/Xrpl/addrbook.json",
+    "tools_url": {
+        "StateSync": "https://stavr-team.gitbook.io/nodes-guides/mainnets/xrpl/sync",
+        "Sync Checker": "https://stavr-team.gitbook.io/nodes-guides/mainnets/xrpl/sync-checker",
+        "Xrpl Map": "https://tools.stavr.tech/Map/xrplt/"
+    },
+    "content":{
+       "Node Guide": "https://stavr-team.gitbook.io/nodes-guides/mainnets/xrpl"
+     }
+},
+    {
     "name": "Cumulo",
     "webservices": "https://cumulo.pro/services/xrplevm/",
     "x": "Cumulo_pro",
