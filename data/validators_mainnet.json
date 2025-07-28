@@ -279,7 +279,8 @@
     "peers": "https://www.nodevism.com/mainnet/xrpl-evm",
      "content":{
       "Node Guide": "https://docs.nodevism.com/testnet/xrpl-evm/installation"
-     },
+      }
+    },
  {
     "name": "Cosmostation",
     "webservices": "",
