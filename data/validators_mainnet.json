@@ -266,6 +266,28 @@
     "grpc": "https://xrp-mainnnet-grpc.monkeylabs.me/",
     "evm": "https://xrp-mainnnet-evm.monkeylabs.me/"
  },
+     {
+    "name": "Nodevism",
+    "webservices": "https://www.nodevism.com/mainnet/xrpl-evm",
+    "x": "Sir_Bell_",
+    "validatorlogo": "nodevism.jpg",
+    "api": "https://api.xrpl-evm.nodevism.com",
+    "rpc": "https://rpc.xrpl-evm.nodevism.com",
+    "grpc": "",
+    "snapshot": "https://docs.nodevism.com/mainnet/xrpl-evm/snapshot",
+    "evm": "",
+    "peers": "https://www.nodevism.com/mainnet/xrpl-evm",
+     "content":{
+      "Node Guide": "https://docs.nodevism.com/testnet/xrpl-evm/installation"
+     },
+ {
+    "name": "Cosmostation",
+    "webservices": "",
+    "x": "CosmostationVD",
+    "validatorlogo": "cosmostation.png",
+    "explorer": "",
+     "snapshot": "https://snapshot.cosmostation.io/xrplevm/"
+  },
     {
     "name": "Cumulo",
     "webservices": "https://cumulo.pro/services/xrplevm/",
