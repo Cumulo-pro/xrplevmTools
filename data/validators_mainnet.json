@@ -290,6 +290,19 @@
      "snapshot": "https://snapshot.cosmostation.io/xrplevm/"
   },
     {
+    "name": "Enigma",
+    "webservices": "",
+    "x": "EnigmaValidator",
+    "validatorlogo": "enigma.png",
+    "api": "https://xrp-lcd.enigma-validator.com",
+    "rpc": "https://xrp-rpc.enigma-validator.com",
+    "evm": "https://xrp-evm-rpc.enigma-validator.com",
+    "snapshot": "https://enigma-validator.com/stake-with-us/xrp#services ",
+    "websocket": "",
+    "addrbook": "",
+    "peers": ""
+   },
+    {
     "name": "Cumulo",
     "webservices": "https://cumulo.pro/services/xrplevm/",
     "x": "Cumulo_pro",
