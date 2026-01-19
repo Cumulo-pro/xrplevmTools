@@ -14,7 +14,10 @@
     "addrbook": "https://ss.xrp.nodestake.org/addrbook.json",
     "tools_url": {
         "State Sync": "https://nodestake.org/xrp"
-        }
+        },
+    "tools_desc": {
+         "State Sync": "State sync and operational resources provided by NodeStake to accelerate XRPL EVM node synchronization and bootstrap processes."
+      }
     },
    {
     "name": "Cosmostation",
@@ -25,7 +28,10 @@
      "snapshot": "",
      "tools_url": {
         "Cosmostation Wallet": "https://x.com/IBCwallet/status/1939688527631151239"
-        }
+        },
+  "tools_desc": {
+   "Cosmostation Wallet": "Official Cosmostation wallet interface announcement and support information for XRPL-related integrations."
+    }
   },
   {
     "name": "Endorphine Stake",
@@ -41,6 +47,9 @@
     "evm": "https://xrpl-evm.endorphinestake.com",
     "tools_url": {
     "Monitoring tool with IP telephony integration": "https://xrpl.buzznodes.com/"
+    },
+    "tools_desc": {
+      "Monitoring tool with IP telephony integration": "Public monitoring and explorer interface providing network visibility, validator status, and infrastructure insights for XRPL EVM."
     }
     },
    {
@@ -60,6 +69,9 @@
      "seeds": "ed78019cdba5ed733017908282eb83ce29417da8@xrpl-seed.stakeme.pro:45656",
     "tools_url": {
         "State Sync": "https://xrpl.exploreme.pro/labs?page=api-sync"
+     },
+    "tools_desc": {
+        "State Sync": "State sync utilities and API-based synchronization tools to reduce XRPL EVM node bootstrap time."
      },
     "snapshot": "https://xrpl.exploreme.pro/labs?page=snapshots",
     "snap_url": "https://st-snap-1.stakeme.pro/xrpl/mainnet/pruned/cosmos_data_xrpl_mainnet_20250704_020001.tar.lz4"
@@ -92,6 +104,11 @@
       "Validator Analytics": "https://itrocket.net/services/mainnet/xrplevm/analytics/validators-performance/?view=uptime&mode=full&range=allTime%20-",
       "Consensus Analytics": "https://itrocket.net/services/mainnet/xrplevm/analytics/consensus/",
       "Peer scanner": "https://itrocket.net/services/mainnet/xrplevm/public-rpc/"
+     },
+  "tools_desc": {
+      "Validator Analytics": "Performance analytics dashboard providing uptime, block participation, and historical metrics for XRPL EVM validators.",
+      "Consensus Analytics": "Consensus-level monitoring tools offering insights into block production, proposer behavior, and network health.",
+      "Peer scanner": "Public RPC and peer inspection tool to analyze peer availability and connectivity across the XRPL EVM network."
      }
     },
      {
@@ -128,6 +145,10 @@
         "State Sync": "https://noders.services/mainnet/xrp/statesync",
         "XRP Monitoring Setup": "https://noders.services/mainnet/xrp/monitoring"
     },
+  "tools_desc": {
+       "State Sync": "State synchronization resources to speed up XRPL EVM node initialization and recovery.",
+       "XRP Monitoring Setup": "Monitoring guides and tooling for tracking node health, performance, and operational metrics on XRPL EVM."
+      }
         "content":{
         "XRP Installation Guide": "https://noders.services/mainnet/xrp/install"
        }
@@ -250,6 +271,11 @@
         "Sync Checker": "https://stavr-team.gitbook.io/nodes-guides/mainnets/xrpl/sync-checker",
         "Xrpl Map": "https://tools.stavr.tech/Map/xrplt/"
     },
+ "tools_desc": {
+  "StateSync": "Guides and tooling for applying state sync on XRPL EVM nodes to minimize initial synchronization time.",
+  "Sync Checker": "Utility to verify synchronization status and detect lag or inconsistencies during node sync.",
+  "Xrpl Map": "Network topology and geographic visualization tool showing XRPL EVM infrastructure distribution."
+},
     "content":{
        "Node Guide": "https://stavr-team.gitbook.io/nodes-guides/mainnets/xrpl"
      }
@@ -320,6 +346,8 @@
     "content":{
       "Node Guide": "https://cumulo.pro/services/xrplevm_mainnet/install"
      },
-    "peers": ""
+ "tools_desc": {
+  "Endpoint Scan": "Distributed endpoint scanning tool that evaluates availability, latency, and reliability of XRPL EVM RPC endpoints."
+      }
    }
 ]
