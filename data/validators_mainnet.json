@@ -148,7 +148,7 @@
   "tools_desc": {
        "State Sync": "State synchronization resources to speed up XRPL EVM node initialization and recovery.",
        "XRP Monitoring Setup": "Monitoring guides and tooling for tracking node health, performance, and operational metrics on XRPL EVM."
-      }
+      },
         "content":{
         "XRP Installation Guide": "https://noders.services/mainnet/xrp/install"
        }
