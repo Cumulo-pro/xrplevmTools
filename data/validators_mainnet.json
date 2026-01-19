@@ -5,8 +5,7 @@
     "x": "NodeStake_top",
     "validatorlogo": "nodestake.jpg",
     "explorer": "https://explorer.nodestake.org/xrp",
-    "peers": "1a39b4cca64e9d89a7cdb55d093ae20fd55257b5@91.237.141.190:26656,30f95e50f9187153524a85725daef0ef2bf1552f@162.55.242.83:26656,0522d356a90f4121cdc3a097add63344d121750a@62.210.158.135:26656,65f303bf4041db870f2c9247be8d5bcdd71f7355@65.108.103.254:26686,c98cfecab11657ec8801f3880e530851ee988708@37.142.120.99:26656,e6a206edca2db569aec62556d122b7a13bdd78ec@176.9.143.150:26656,13d9167161731298407a2a6e84a0a2a1ba000c1f@65.109.80.207:14656,db6d462b98753e4e79d7033b6dacf6da265fa336@146.190.240.245:26656,9d82d7d62c14b9a4d3f2309f5b33f193d85d619b@104.238.152.26:26656",
-    "seeds": "327fb4151de9f78f29ff10714085e347a4e3c836@rpc.xrp.nodestake.org:666",
+   "seeds": "327fb4151de9f78f29ff10714085e347a4e3c836@rpc.xrp.nodestake.org:666",
     "api": "https://api.xrp.nodestake.org",
     "rpc": "https://rpc.xrp.nodestake.org",
     "grpc": "https://grpc.xrp.nodestake.org:443",
@@ -315,8 +314,7 @@
     "archive_snapshot": "https://cumulo.pro/services/xrplevm_mainnet/snapshot",
     "websocket": "",
     "snap_url": "",
-    "tools": "Endpoint Scan",
-      "tools_url": {
+    "tools_url": {
       "Endpoint Scan": "https://cumulo.pro/services/xrplevm_mainnet/rpcscan"
     },
     "content":{
