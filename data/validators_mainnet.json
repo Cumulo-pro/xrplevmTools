@@ -328,6 +328,22 @@
     "peers": ""
    },
     {
+    "name": "Polkachu",
+    "webservices": "https://www.polkachu.com/networks/xrp",
+    "x": "polka_chu",
+    "validatorlogo": "polkachu.jpg",
+    "api": "https://xrp-api.polkachu.com/",
+    "evm": "https://xrpevm-rpc.polkachu.com/",
+    "rpc": "https://xrp-rpc.polkachu.com",
+    "grpc": "xrp-grpc.polkachu.com:30090",
+    "peers": "https://www.polkachu.com/live_peers/xrp",
+    "snapshot": "https://www.polkachu.com/tendermint_snapshots/xrp",
+    "addrbook": "https://www.polkachu.com/addrbooks/xrp",
+    "content":{
+    "Installation Guide": "https://www.polkachu.com/installation/xrp"
+  }
+},
+    {
     "name": "Cumulo",
     "webservices": "https://cumulo.pro/services/xrplevm/",
     "x": "Cumulo_pro",
