@@ -230,8 +230,15 @@
  "tools_url": {
   "Validator Analytics": "https://itrocket.net/services/testnet/xrplevm/analytics/validators-performance/?view=uptime&mode=full&range=allTime%20-",
   "Consensus Analytics": "https://itrocket.net/services/testnet/xrplevm/analytics/consensus/",
-  "Peer scanner": "https://itrocket.net/services/testnet/xrplevm/public-rpc/"
-    }
+  "Peer scanner": "https://itrocket.net/services/testnet/xrplevm/public-rpc/",
+  "Proposal bot": "https://t.me/itrocket_mainnet_proposal_bot"
+    },
+   "tools_desc": {
+      "Validator Analytics": "Performance analytics dashboard providing uptime, block participation, and historical metrics for XRPL EVM validators.",
+      "Consensus Analytics": "Consensus-level monitoring tools offering insights into block production, proposer behavior, and network health.",
+      "Peer scanner": "Public RPC and peer inspection tool to analyze peer availability and connectivity across the XRPL EVM network.",
+      "Proposal bot": "Receive testnet and mainnet updates on new proposals, status changes, and get reminder timers (1 hour and 5 minutes before updates)."
+     }
   },
      {
     "name": "STAKEME",
