@@ -339,8 +339,13 @@
     "peers": "https://www.polkachu.com/live_peers/xrp",
     "snapshot": "https://www.polkachu.com/tendermint_snapshots/xrp",
     "addrbook": "https://www.polkachu.com/addrbooks/xrp",
+    "tools": "State-sync",
+    "tools_url": {
+        "State-sync" :"https://www.polkachu.com/state_sync/xrp"
+     },
     "content":{
-    "Installation Guide": "https://www.polkachu.com/installation/xrp"
+       "Installation Guide": "https://www.polkachu.com/installation/xrp"
+    }
   }
 },
     {
