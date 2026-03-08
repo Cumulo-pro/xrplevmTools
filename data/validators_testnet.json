@@ -9,38 +9,6 @@
     "grpc": "grpc-xrp-devnet.imperator.co:443",
     "evm": ""
    },
-  {
-    "name": "Mekong Labs",
-    "webservices": "https://testnet.mekonglabs.tech/xrpl/staking",
-    "x": "mekong_labs",
-    "validatorlogo": "mekong.jpg",
-    "api": "https://exrpd-testnet-api.mekonglabs.tech/",
-    "rpc": "https://exrpd-testnet-rpc.mekonglabs.tech/",
-    "grpc": "exrpd-testnet-grpc.mekonglabs.tech:47090",
-    "evm": "https://exrpd-testnet-json-rpc.mekonglabs.tech",
-    "snapshot": "http://exrpd-testnet-snapshots.mekonglabs.tech/",
-    "explorer": "https://testnet.mekonglabs.tech/xrpl/staking",
-    "content": {
-        "Node Guide": "https://github.com/Mekong-labs/NodeGuide/tree/main/XRPL"
-    }
-},
-  {
-    "name": "MictoNode",
-    "x": "onurnft0",
-    "validatorlogo": "mictonode.jpg",
-    "rpc": "https://xrpl-testnet-rpc.mictonode.com",
-    "rpc_wss": "wss://xrpl-testnet-rpc.mictonode.com/websocket",
-    "api": "https://xrpl-testnet-api.mictonode.com",
-    "grpc": "xrpl-testnet-grpc.mictonode.com:22090",
-    "websocket": "wss://xrpl-testnet-evmrpc-wss.mictonode.com",
-    "evm": "https://xrpl-testnet-evmrpc.mictonode.com",
-    "peers": "d8106774d544591c0dd5b073ac0fd2e481669cf0@xrpl-testnet-peers.mictonode.com:22056",
-    "explorer": "https://explorer.mictonode.com/XRPL-Testnet/staking/",
-    "snapshot": "https://services.mictonode.com/xrpl-evm/snapshot",
-    "content": {
-        "Basic Guide": "https://services.mictonode.com/xrpl-evm"
-    }
-},
 {
     "name": "Polkachu",
     "webservices": "https://polkachu.com/testnets/xrp",
@@ -64,13 +32,13 @@
    },
 {
     "name": "Enigma",
-    "webservices": "https://enigma-validator.com/stake-with-us/xrp-testnet#services",
+    "webservices": "",
     "x": "EnigmaValidator",
     "validatorlogo": "enigma.png",
     "api": "https://xrp-lcd.enigma-validator.com/",
     "rpc": "https://xrp-rpc.enigma-validator.com/",
     "grpc": "",
-    "snapshot": "https://services.enigma-validator.com/xrp/xrp_13246160.tar.lz4",
+    "snapshot": "",
     "websocket": "",
     "addrbook": "https://services.enigma-validator.com/xrp/addrbook.json",
     "peers": ""
@@ -104,19 +72,6 @@
     "snapshot": "https://nodestake.org/xrp"
 },
 {
-    "name": "blockitize",
-    "webservices": "https://services.blockitize.com/?project=xrplevm",
-    "x": "blockitize",
-    "validatorlogo": "blockitize.jpg",
-    "api": "https://xrplevm-devnet-api.blockitize.com/",
-    "rpc": "https://xrplevm-testnet-rpc.blockitize.com/",
-    "grpc": "https://xrplevm-devnet-grpc.blockitize.com:80",
-    "snapshot": "https://services.blockitize.com/?project=xrplevm#snapshot",
-    "websocket": "ws://xrplevm-devnet-ws.blockitize.com/",
-    "evm": "http://xrplevm-devnet-jsonrpc.blockitize.com",
-    "peers": ""
-   },
-{
     "name": "Cumulo",
     "webservices": "https://cumulo.pro/services/xrplevm/",
     "x": "Cumulo_pro",
@@ -137,52 +92,7 @@
      },
     "peers": "https://cumulo.pro/services/xrplevm/"
    },
-    {
-    "name": "𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀",
-    "webservices": "https://teletype.in/@lesnik13utsa/Pw2GAVJJ_7y",
-    "x": "lesnik13utsa",
-    "validatorlogo": "𝐥𝐞𝐬𝐧𝐢𝐤.jpg",
-    "explorer": "https://exp.utsa.tech/xrpl-testnet/staking",
-    "api": "https://t-xrpl.api.utsa.tech",
-    "rpc": "https://t-xrpl.rpc.utsa.tech",
-    "grpc": "t-xrpl.grpc.utsa.tech:433",
-    "evm": "https://t-xrpl.evm.utsa.tech",
-    "seeds": "",
-    "addrbook": "",
-    "snapshot": "https://utsa.gitbook.io/services/testnet/xrpl-evm/snapshots",
-    "content": {
-        "Node Installation": "https://utsa.gitbook.io/services/testnet/xrpl-evm"       
-    }
- },
-     {
-    "name": "DeFatRat",
-    "webservices": "",
-    "x": "tphat2616",
-    "validatorlogo": "defatrat.jpg",
-    "explorer": "https://testnet.techhubs.asia/xrpl/staking",
-    "api": "https://xrpl-testnet-api.techhubs.asia/",
-    "rpc": "https://xrpl-testnet-rpc.techhubs.asia/",
-    "grpc": "65.109.86.235:47090",
-    "evm": "https://xrpl-testnet-json.techhubs.asia/",
-    "seeds": "",
-    "addrbook": "",
-    "snapshot": "https://xrpl-testnet-snapshots.techhubs.asia/"
-    },
-     {
-    "name": "node9x",
-    "webservices": "https://service.node9x.com/testnet/xrpl-evm",
-    "x": "",
-    "validatorlogo": "node9x.jpg",
-    "explorer": "https://explorer.node9x.com/XRLP",
-    "api": "https://xrpl-api.node9x.com/",
-    "rpc": "https://xrpl-rpc.node9x.com/",
-    "grpc": "",
-    "evm": "https://xrpl-evm.node9x.com/",
-    "seeds": "",
-    "addrbook": "",
-    "snapshot": ""
- },
-    {
+  {
     "name": "RPCdot.com",
     "webservices": "https://service.rpcdot.com/xrpl/services",
     "x": "rpcdot",
@@ -195,23 +105,7 @@
     "explorer": "https://explorer.rpcdot.com/xrplevm-testnet",
     "peers": ""
    },
-    {
-    "name": "LuckyStar",
-    "webservices": "https://xrpl-testnet-services.luckystar.asia/xrpl",
-    "x": "LuckyStar_Asia",
-    "validatorlogo": "luckystar.jpg",
-    "api": "https://xrpl-testnet-api.luckystar.asia/",
-    "rpc": "http://xrpl-testnet-rpc.luckystar.asia/",
-    "grpc": "https://xrpl-testnet-grpc.luckystar.asia/",
-    "snapshot": "https://luckystar-1.gitbook.io/luckystar.asia/testnet/cosmos-eco/xrpl/snapshot",
-    "websocket": "wss://xrpl-testnet-rpc.luckystar.asia/ws",
-    "addrbook": "https://xrpl-testnet-services.luckystar.asia/xrpl/addrbook.json",
-    "explorer": "https://explorer.luckystar.asia/xrpl-Testnet",
-        "content":{
-      "Node Guide": "https://luckystar-1.gitbook.io/luckystar.asia/testnet/cosmos-eco/xrpl"
-     }
-   },
-    {
+  {
   "name": "ITRocket",
   "webservices": "https://itrocket.net/services/testnet/xrplevm/",
   "x": "itrocket_team",
@@ -247,29 +141,6 @@
     "validatorlogo": "stakeme.jpg",
     "explorer": "https://testnet.xrpl.exploreme.pro/"
      } ,
-    {
-  "name": "p10node",
-  "webservices": "",
-  "x": "p10node",
-  "validatorlogo": "p10node.jpg",
-  "peers": "",
-  "seeds": "",
-  "api": "https://api.testnet.xrplevm.p10node.com",
-  "rpc": "https://rpc.testnet.xrplevm.p10node.com",
-  "grpc": "grpc.testnet.xrplevm.p10node.com",
-  "websocket": "https://ws.json-rpc.testnet.xrplevm.p10node.com",
-  "evm": "https://json-rpc.testnet.xrplevm.p10node.com",
-  "snapshot": ""
-    },
-  {
-  "name": "Đông QN",
-  "webservices": "",
-  "x": "dongqn69",
-  "validatorlogo": "dongqn69.jpg",
-  "api": "https://api.testnet.xrplevm.dongqn.com",
-  "rpc": "https://rpc.testnet.xrplevm.dongqn.com",
-  "grpc": "grpc.testnet.xrplevm.dongqn.com"
-},
  {
   "name": "Zstake ",
   "webservices": " https://docs.zstake.xyz/xrpl-evm",
@@ -310,19 +181,7 @@
     "Node Guide": "https://stavr-team.gitbook.io/nodes-guides/testnets/xrpl/node-installation"
      }
 },
-    {
-    "name": "Cosmonaut Stakes ",
-    "webservices": "",
-    "x": "CosmonautStakes",
-    "validatorlogo": "cosmonautstakes.jpg",
-    "explorer": "",
-    "api": "https://xrpl-testnet-rest.cosmonautstakes.com",
-    "rpc": "https://xrpl-testnet-rpc.cosmonautstakes.com",
-    "grpc": "xrpl-testnet-grpc.cosmonautstakes.com:15490",
-    "evm": "https://xrpl-testnet-evm.cosmonautstakes.com",
-    "websocket": ""   
-  },
-    {
+   {
     "name": "XSS",
     "webservices": "https://services.xsslabs.tech/xrpl-evm/",
     "validatorlogo": "xss.jpeg",
@@ -356,22 +215,11 @@
     "x": "brkkcinar",
     "validatorlogo": "hibunode.png",
     "explorer": "https://explorer.hibunode.com/xrplevm",
-    "api": "https://xrpl-testnet-api.hibunode.com/",
-    "rpc": "https://xrpl-testnet-rpc.hibunode.com/",
+    "api": "",
+    "rpc": "",
     "grpc": ""
     },
- {
-    "name": "Monkey Labs",
-    "webservices": "https://monkeylabs.gitbook.io/services",
-    "x": "",
-    "validatorlogo": "monkeylabs.jpg",
-    "explorer": "https://explorer.monkeylabs.me/Xrpl-Testnet/staking",
-    "api": "https://xrp-testnet-api.monkeylabs.me/",
-    "rpc": "https://xrp-testnet-rpc.monkeylabs.me/",
-    "grpc": "https://xrp-testnet-grpc.monkeylabs.me/",
-    "evm": "https://xrp-testnet-evm.monkeylabs.me/"
- },
- {
+{
     "name": "BonyNode",
     "webservices": "https://bonynode.online/services/testnet/xrpl/",
     "x": "BonyNode",
@@ -442,18 +290,7 @@
     "snapshot": "",
     "evm": ""
     },
-    {
-    "name": "Vitwit",
-    "webservices": "https://snap.xrp.vitwit.com/",
-    "x": "vitwit_",
-    "validatorlogo": "vitwit.jpg",
-    "api": "https://rest.xrp.vitwit.com",
-    "rpc": "https://rpc.xrp.vitwit.com",
-    "grpc": "",
-    "snapshot": "https://snap.xrp.vitwit.com/",
-    "evm": ""
-    },
-    {
+   {
     "name": "Endorphine Stake",
     "webservices": "https://services.endorphinestake.com/testnets/XRPL",
     "x": "endorphinestake",
@@ -469,22 +306,7 @@
         "Monitoring tool with IP telephony integration": "https://xrpl-testnet.buzznodes.com/"
         }
     },
-    {
-    "name": "Nodevism",
-    "webservices": "https://docs.nodevism.com/testnet/xrpl-evm",
-    "x": "Sir_Bell_",
-    "validatorlogo": "nodevism.jpg",
-    "api": "https://api-xrpl.testnet.nodevism.com/",
-    "rpc": "https://rpc-xrpl.testnet.nodevism.com/",
-    "grpc": "",
-    "snapshot": "https://docs.nodevism.com/testnet/xrpl-evm/snapshot",
-    "evm": "",
-    "peers": "48e729c83f48e09162140f208bc62f77b255beea@195.3.223.119:31656",
-     "content":{
-      "Node Guide": "https://docs.nodevism.com/testnet/xrpl-evm/installation"
-     }
-    },
-        {
+     {
         "name": "Bitszn | valopers",
         "webservices": "",
         "x": "bitszn_com",
@@ -496,16 +318,7 @@
         "evm": "",
         "explorer": "https://testnet.xrplevm.valopers.com/validators"
         },
-     {
-    "name": "Validator247.com",
-    "webservices": "",
-    "x": "Validator247",
-    "validatorlogo": "validator247.jpg",
-    "explorer": "",
-    "api": "https://xrplevm-testnet-api.validator247.com ",
-    "rpc": "https://xrplevm-testnet-rpc.validator247.com"   
-},
-   {
+    {
     "name": "High Tower",
     "webservices": "",
     "x": "bitszn_com",
@@ -571,27 +384,5 @@
         "Node Guide": "https://unitynodes.gitbook.io/unity-nodes/testnet-network/xrpl-evm/installation",
         "TMKMS setup for XRPL validator": "https://medium.com/@unitynodes/tmkms-setup-for-xrpl-validator-5f46e554e4ad"
        }
-     },
-    {
-    "name": "NODERS",
-    "webservices": "https://noders.services/testnet-networks/xrp/",
-    "x": "NODERS_TEAM",
-    "validatorlogo": "noders.jpg",
-    "explorer": "",
-    "peers": "https://noders.services/testnet-networks/xrp/seeds-and-peers",
-    "seeds": "https://noders.services/testnet-networks/xrp/seeds-and-peers",
-    "api": "https://xrp-t-api.noders.services",
-    "rpc": "https://xrp-t-rpc.noders.services",
-    "grpc": "xrp-t-grpc.noders.services:443",
-    "snapshot": "https://noders.services/testnet-networks/xrp/snapshot",
-    "addrbook": "https://noders.services/testnet-networks/xrp/seeds-and-peers#address-book",
-    "tools": "State Sync,XRP Monitoring Setup",
-    "tools_url": {
-        "State Sync": "https://noders.services/testnet-networks/xrp/statesync",
-        "XRP Monitoring Setup": "https://noders.services/testnet-networks/xrp/monitoring"
-    },
-        "content":{
-        "XRP Installation Guide": "https://noders.services/testnet-networks/xrp/install"
-       }
-  }
+     }
 ]
