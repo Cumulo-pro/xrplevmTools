@@ -350,19 +350,7 @@
       "Node Guide": "https://services.nodeshub.online/testnet/xrpl/installation"
      }
  },
-     {
-        "name": "Inter Blockchain Services",
-        "webservices": "",
-        "x": "IBSvalidator",
-        "validatorlogo": "ibs.jpg",
-        "api": "https://xrpl-evm-testnet-api.ibs.team/",
-        "rpc": "https://xrpl-evm-testnet-rpc.ibs.team/",
-        "grpc": "",
-        "snapshot": "https://testnet-snapshot.ibs.team/Xrplevm/",
-        "evm": "https://xrpl-evm-testnet-evm-rpc.ibs.team/",
-        "explorer": ""
-        },
-     {
+        {
         "name": "Unity Nodes",
         "webservices": "https://unitynodes.gitbook.io/unity-nodes/testnet-network/xrpl-evm",
         "x": "UnityNodes",
