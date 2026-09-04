@@ -199,27 +199,35 @@
     "statesync_rpc": "https://xrp-rpc.polkachu.com:443"
   },
   {
-    "name": "Cumulo",
-    "webservices": "https://cumulo.pro/services/xrplevm/",
-    "x": "Cumulo_pro",
-    "validatorlogo": "cumulo.jpg",
-    "api": "https://api.xrpl.cumulo.org.es",
-    "rpc": "https://rpc.xrpl.cumulo.org.es",
-    "grpc": "grpc.xrpl.cumulo.org.es",
-    "evm": "https://json-rpc.xrpl.cumulo.org.es",
-    "snapshot": "",
-    "archive_snapshot": "https://cumulo.pro/services/xrplevm_mainnet/snapshot",
-    "websocket": "",
-    "snap_url": "",
-    "tools_url": {
-      "Endpoint Scan": "https://cumulo.pro/services/xrplevm_mainnet/rpcscan"
-    },
-    "content": {
-      "Node Guide": "https://cumulo.pro/services/xrplevm_mainnet/install"
-    },
-    "tools_desc": {
-      "Endpoint Scan": "Distributed endpoint scanning tool that evaluates availability, latency, and reliability of XRPL EVM RPC endpoints."
-    },
-    "statesync_rpc": "https://rpc.xrpl.cumulo.org.es"
+  "name": "Cumulo",
+  "webservices": "https://cumulo.pro/services/xrplevm/",
+  "x": "Cumulo_pro",
+  "validatorlogo": "cumulo.jpg",
+  "api": "https://api.xrpl.cumulo.org.es",
+  "rpc": "https://rpc.xrpl.cumulo.org.es",
+  "grpc": "grpc.xrpl.cumulo.org.es",
+  "evm": "https://json-rpc.xrpl.cumulo.org.es",
+  "snapshot": "",
+  "archive_snapshot": "https://cumulo.pro/services/xrplevm_mainnet/snapshot",
+  "websocket": "",
+  "snap_url": "https://cumulo.pro/services/xrplevm_mainnet/snapshot",
+  "tools_url": {
+    "Endpoint Scan": "https://cumulo.pro/services/xrplevm_mainnet/rpcscan"
+  },
+  "content": {
+    "Node Guide": "https://cumulo.pro/services/xrplevm_mainnet/install"
+  },
+  "tools_desc": {
+    "Endpoint Scan": "Distributed endpoint scanning tool that evaluates availability, latency, and reliability of XRPL EVM RPC endpoints."
+  },
+  "statesync_rpc": "https://rpc.xrpl.cumulo.org.es",
+  "snapshot_check": {
+    "kind": "json_index",
+    "resolve_url": "https://xrpl.cumulo.me/snapshots-mainnet/index.json",
+    "file_key": "file",
+    "height_key": "latest_ledger",
+    "date_key": "date",
+    "size_key": "size"
   }
+}
 ]
